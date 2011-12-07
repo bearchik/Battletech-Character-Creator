@@ -1,0 +1,227 @@
+#Archaic Melee - archmelee 
+archmelee;Melee Weapons;Axe;3M/2;1;25;4;0;0;0;-2 to attack roll
+archmelee;Melee Weapons;Blackjack/Sap;0M/3D;1;5;0.2;0;0;0;-2 to attack roll
+archmelee;Melee Weapons;Bokken;0M/2;1;15;2;0;0;0;+1 to attack roll
+archmelee;Melee Weapons;Club or Improvised ;1M/1;1;0;2;0;0;0;None
+archmelee;Melee Weapons;Dao;1M/2;1;200;3;0;0;0;+1 to attack roll
+archmelee;Melee Weapons;Fingernails, Carbon-Fiber Reinforced;1M/1;1;1000;0;0;0;0;no effect vs BAR 3+
+archmelee;Melee Weapons;Hatchet;2M/1;1;10;1;0;0;0;-2 to attack roll
+archmelee;Melee Weapons;Tomahawk;2M/1;1;10;1;0;0;0;-2 to attack roll
+archmelee;Melee Weapons;Katana;2M/2;1;250;2.5;0;0;0;+1 to attack roll
+archmelee;Melee Weapons;Knife;1M/1;1;8;0.25;0;0;0;None
+archmelee;Melee Weapons;Dagger;1M/1;1;8;0.25;0;0;0;None
+archmelee;Melee Weapons;Bayonet;1M/1;1;8;0.25;0;0;0;None
+archmelee;Melee Weapons;No-Dachi;1M/3;1;300;4.5;0;0;0;None
+archmelee;Melee Weapons;Nunchaku;1M/1;1;10;1.5;0;0;0;Opponent -2 to Def Roll
+archmelee;Melee Weapons;Pole Arm;1M/2;2;50;6;0;0;0;None
+archmelee;Melee Weapons;Scimitar;2M/2;1;250;2.5;0;0;0;+1 to attack roll
+archmelee;Melee Weapons;Staff;0M/2;1;5;2.5;0;0;0;None
+archmelee;Melee Weapons;Sword;2M/2;1;30;3;0;0;0;None
+archmelee;Melee Weapons;Wakizashi;1M/1;1;150;1;0;0;0;+1 to attack roll
+# Archaic Range - archrange 
+archrange;Archery;Short bow;2B/1;8/20/50/100;10;0.8;1;1;0.06;Simple action for reload
+archrange;Archery;Long bow;2B/2;10/30/80/175;20;1.5;1;2;0.07;Simple action for reload
+archrange;Archery;Compound bow;2B/2;10/25/70/160;15;1;1;2;0.07;Simple action for reload, +1 to attack roll
+archrange;Archery;Hankyu;2B/1;8/20/55/110;15;0.8;1;1;0.06;Simple action for reload
+archrange;Archery;Daikyu;2B/2;10/25/60/125;30;1;1;2;0.07;Simple action for reload
+archrange;Archery;Cross Bow, Basic;3B/2;5/16/30/70;10;2;1;1;0.05;Simple action for reload
+archrange;Archery;Cross Bow, Heavy;3B/3;5/20/40/100;10;4;1;1;0.06;Simple action for reload
+archrange;Thrown Weapons;Dart;1M/1;STR+DEX;3;0.01;0;0;0;+1 to HIT, Half Thrown weapon range(RD)
+archrange;Thrown Weapons;Shutiken;2M/1;STR+DEX;5;0.1;0;0;0;Extreme range = 6x short
+archrange;Thrown Weapons;(R)Knife;2M/1;STR+DEX;8;0.250;0;0;0;None
+archrange;Thrown Weapons;Throwing;2M/1;STR+DEX;8;0.250;0;0;0;None
+archmelee;Thrown Weapons;(R)Hatchet;3M/1;STR+DEX;10;1;0;0;0;None
+archmelee;Thrown Weapons;(R)Tomahawk;3M/1;STR+DEX;10;1;0;0;0;None
+archmelee;Thrown Weapons;Spear;2M/2;STR+DEX;15;5;0;0;0;DoubleThrown weapon range
+# Modern Melee - modermelee 
+modermelee;Melee Weapons;Medusa Whip;0E/1D;3;2200;0.45;1 PPS;5;0.25;p.264
+modermelee;Melee Weapons;Mini Stunstick;0E/3D;1;50;0.150;1 PPS;5;0.25;Do not add STR Damage
+modermelee;Melee Weapons;Neural Lash;0E/5D;1;750;0.100;1 PPS;5;0.25;Do not add STR Damage
+modermelee;Melee Weapons;Neural Whip;0E/5D;1;500;0.300;2 PPS;5;0.25;Do not add STR Damage
+modermelee;Melee Weapons;Stunstick;0E/4D;1;200;0.200;1 PPS;5;0.25;Do not add STR Damage
+modermelee;Melee Weapons;Stun-staff, single-end;0E/4D;2;300;3;1 PPS;5;0.25;None
+modermelee;Melee Weapons;Stun-staff, double-end;0E/4D;2;500;3;2 PPS;5;0.25;None
+modermelee;Melee Weapons;Monowire;4M/5;0;200;0.25;1 PPS;5;0.25;-2 to attack roll, requires aimed shot hit yo head
+modermelee;Melee Weapons;Vibroaxe;6M/4;1;150;5;2 PPS;5;0.25;-1 to attack roll
+modermelee;Melee Weapons;Vibroblade;6M/2;1;100;0.35;1 PPS;5;0.25;None
+modermelee;Melee Weapons;Vibrodagger;6M/2;1;100;0.35;1 PPS;5;0.25;None
+modermelee;Melee Weapons;Vibrokatana;6M/3;1;350;1;2 PPS;5;0.25;+1 to attack roll
+modermelee;Melee Weapons;Vibromace;3M/5;1;540;6;3 PPS;5;0.25;-2 to attack roll
+modermelee;Melee Weapons;Vibrosword;6M/3;1;300;2.5;1 PPS;5;0.25;None
+modermelee;Melee Weapons;Vibrosword-Clan;7M/3;1;500;0.25;2 PPS;5;0.25;None
+# Balistic - balistic 
+balistic;Small Arms;Auto-Pistol;3B/4;5/20/45/105;50;0.5;10;2;0.14;Jam on Fumble
+balistic;Small Arms;Auto-Pistol(Hawk Eagle);4B/3B;5/20/50/100;100;0.5;15;10;0.11;Burst: 3, Recoil: –1
+balistic;Small Arms;Auto-Pistol(Magnum);3B/5;5/20/50/120;75;0.5;8;4;0.14;-1 to attack roll
+balistic;Small Arms;Auto-Pistol(M&G Service Auto);3B/4;5/20/40/85;60;0.65;8;3;0.11;None
+balistic;Small Arms;Auto-Pistol(Nambu);3B/4;5/25/50/110;75;0.45;12;2;0.16;Jam on Fumble
+balistic;Small Arms;Auto-Pistol(Serrek7875D);3B/3;5/25/50/120;185;0.40;16;3;0.16;+1 to attack and service roll
+balistic;Small Arms;Auto-Pistol(Sternsacht Python);4B/4;5/15/40/80;125;0.75;12;4;0.16;Jam on Fumble
+balistic;Small Arms;Semi-Auto(TK Enforcer);3B/3B;7/25/55/140;110;1.6;20;3;0.2;Burst: 4, Recoil: –1
+balistic;Small Arms;Pistol(Hold-out);3B/3;2/5/8/20;20;0.2;2;1;0.02;None
+balistic;Small Arms;Pistol(Sternsacht Claymore);3B/6;5/15/38/70;200;2.5;3;1;0.09;Range Mod:+0/-3/-6/-11
+balistic;Small Arms;Pistol(Makeshift);3B/4;5/15/30/65;15;1;1;1;0.01;p.265
+balistic;Small Arms;Revolver;4B/4;8/18/40/90;40;0.5;6;1;0.06;None
+balistic;Small Arms;Revolver(Magnum);4B/5;8/18/45/100;60;0.5;5;3;0.06;-1 to attack roll
+balistic;Small Arms;Harpoon Gun(Pequod, mk1);3B/3;8/12/25/30;350;2.3;1;2;0.135;p.265
+balistic;Small Arms;Auto-Pistol(Mydron);3B/2B;6/22/40/90;100;1.5;20;4;0.14;Burst: 6, Recoil: –1
+balistic;Small Arms;Auto-Pistol(Stetta);3B/2B;3/10/20/50;150;2;100;10;0.68;Burst: 10, Recoil: –1
+balistic;Small Arms;Machine Pistol(Martial Eagle);3B/3B;5/20/50/100;180;1.8;30;20;0.25;Burst: 10, Recoil: –1
+balistic;Small Arms;Submachine Gun;3B/3B;5/16/35/80;80;3;50;5;0.57;Burst: 10, Recoil: –1
+balistic;Small Arms;SMG(Gunther MP-20);4B/3B;4/12/30/50;125;2.5;30;5;0.34;Burst: 10, Recoil: –1
+balistic;Small Arms;SMG(Imperator 2894A1);4B/2B;5/18/40/85;100;4;50;5;0.38;Burst: 10, Recoil: –1
+balistic;Small Arms;SMG(KA-23 Subgun);4B/2B;6/20/45/100;250;2.5;40;6;0.3;Burst: 10, Recoil: –1
+balistic;Small Arms;SMG(Rorynex RM3/XXI);3B/2B;3/12/28/60;80;3;100;10;0.76;Burst: 15, Recoil: –1
+balistic;Small Arms;SMG(Rugan);3B/2B;4/15/30/70;100;3.5;80;8;0.61;Burst: 15, Recoil: –1
+balistic;Small Arms;Rifle(Automatic);4B/4B;30/75/170/415;80;4;30;2;0.48;Burst: 15, Recoil: –1
+balistic;Small Arms;Rifle(Bolt-Action);4B/4;40/115/225/500;60;3;5;1;0.06;Simple action to chamber next round
+balistic;Small Arms;Rifle(Federated Long);4B/5;35/85/205/450;120;5;10;3;0.15;None
+balistic;Small Arms;Rifle(Imperator AX-22 Assault);4B/4B;30/80/185/435;200;3.5;15;3;0.24;Burst: 15, Recoil: –1
+balistic;Small Arms;Rifle(M&G G-150);4B/4B;45/95/215/460;270;3.5;9;5;0.15;Burst: 3, p.266
+balistic;Small Arms;Rifle(Makeshift);4B/4;20/65/140/300;20;6;1;1;0.02;p.266
+balistic;Small Arms;Rifle(TK Assault);4B/4B;25/70/160/410;150;5.5;20;3;0.32;Burst: 10, Recoil: –1
+balistic;Small Arms;Rifle(Zeus heavy);5B/5;35/80/190/420;200;8;5;3;0.08;None
+balistic;Small Arms;Elephant Gun;5B/6;20/60/160/400;100;5;2;2;0.04;-2 to attack roll
+balistic;Small Arms;Federated-barret M42B;4B/5B;30/75/180/430;1385;6;50;12;0.3;p.266
+balistic;Small Arms;Sniper Rifle;5B/4;45/150/340/700;350;10;5;4;0.06;p.266
+balistic;Small Arms;Sniper Rifle(Minolta 9000);5B/4;50/160/360/730;1000;6;10;5;0.12;None
+balistic;Small Arms;Harpoon Gun(Pequod, mk2);4B/4;18/35/65/90;700;4.1;2;5;0.36;p.266
+# Energy - energy 
+energy;Small Arms;Laser Pistol;4E/3;15/35/80/225;750;1;2 PPS;5;0.25;None
+energy;Small Arms;Blazer Pistol;5E/3;15/40/90/240 ;3000;2;8 PPS;5;0.25;None
+energy;Small Arms;Er Laser Pistol;4E/3;20/50/125/300;1000;1;3 PPS;5;0.25;None
+energy;Small Arms;Holdout Laser Pistol;4E/2;10/22/50/120 ;100;0.05;3 PPS;5;0.25;None
+energy;Small Arms;Laser Pistol(White Dwarf);4E/3;10/25/60/150;250;0.25;1;0;0;p.267
+energy;Small Arms;Nakjima Hand Laser;5E/2;20/40/100/250;750;1;1 PPS;5;0.25;None
+energy;Small Arms;Nova Laser Pistol;3E/5;8/20/40/100;1250;1.5;10 PPS;5;0.25;None
+energy;Small Arms;SunBeam Laser Pistol;4E/4;15/30/65/200;750;1;4 PPS;5;0.25;None
+energy;Small Arms;Pulse Laser Pistol;3E/2B;12/30/70/195;1000;1;2 PPS;5;0.25;Burst 5, Recoil 0
+energy;Small Arms;Pulse Laser Pistol, Clan;3E/3B;15/35/80/200;1500;1;3 PPS;5;0.25;Burst 5, Recoil 0
+energy;Small Arms;Laser Rifle;4E/4;60/205/465/1100;1250;5;5 PPS;5;0.25;None
+energy;Small Arms;Laser Rifle(Maxell PL-10);5E/3;55/200/460/1050;2000;6.5;9 PPS;5;0.25;None
+energy;Small Arms;Blazer Rifle;5E/4;65/220/485/1180 ;2190;7;10 PPS;5;0.25;None
+energy;Small Arms;Marx XX Laser Rifle;5E/3;75/250/500/1150 ;1750;6;6 PPS;5;0.25;None
+energy;Small Arms;Ebony Assault Rifle;4E/3;65/200/475/1000  ;8500;10;8 PPS;5;0.25;p. 267
+energy;Small Arms;Intek Laser Rifle;4E/3;80/275/550/1200;1250;5;2 PPS;5;0.25;None
+energy;Small Arms;Magna Laser Rifle;3E/5;50/190/440/1000;1500;6;5 PPS;5;0.25;None
+energy;Small Arms;M61A Combat System;4E/4;70/225/480/1100;7150;9;5 PPS;5;0.25;p. 267
+energy;Small Arms;Mauser 960 Assault;3E/3B;55/170/365/740;8000;10.5;2 PPS;5;0.25;p. 267
+energy;Small Arms;Mauser 1200 LSS;4E/4B;55/170/365/740 ;10000;11;5 PPS;5;0.25;p. 267
+energy;Small Arms;Mauser IIC IAS;4E/5;90/300/700/1400;18000;12;5 PPS;5;0.25;p. 267
+energy;Small Arms;Er Laser Rifle;4E/4;90/300/700/1400 ;2000;5;5 PPS;5;0.25;None
+energy;Small Arms;Pulse Laser Rifle,Clan;3E/4B;60/180/400/800;2000;6;5 PPS;5;0.25;None
+energy;Small Arms;Pulse Laser Rifle;3E/3B;40/130/275/595;2000;5;4 PPS;5;0.25;None
+energy;Small Arms;Starfire Er Laser Rifle;4E/4;85/285/625/1300;2500;5;6 PPS;5;0.25;None
+# Flechette - flechet 
+flechet;Small Arms;Needler Pistol;2B/5S; 2/6/12/20;50;0.3;10;1;0.07;Needler
+flechet;Small Arms;Needler Pistol(Hold-out);2B/5S;2/4/6/12 ;20;0.05;5;0;0;Needler, cannot be reloaded
+flechet;Small Arms;Needler Pistol(Sea Eagle);1B/4BS;2/5/10/20 ;110;0.35;10;5;0.1;Needler, Burst 5, Recoil -1
+flechet;Small Arms;M&G Flechette Pistol;1B/4BS;2/5/10/20 ;100;0.65;15;4;0.17;Needler, Burst 5, Recoil -1
+flechet;Small Arms;Automatic Shotgun;2B/5BS;4/10/20/45;200;5;12;2;0.27;Burst 5, Recoil -1
+flechet;Small Arms;Combat Shotgun;3B/5BS;5/12/24/50 ;175;4.5;8;2;0.14;None
+flechet;Small Arms;Double-Barreled Shotgun;1B/6BS;3/8/16/45 ;30;4;2;1;0.04;p.268
+flechet;Small Arms;Double-Barreled Shotgun(Sawed off);1B/6BS;1/4/8/22;30;3;2;1;0.04;p.268
+flechet;Small Arms;Pump Shotgun;1B/6S;4/10/20/45;40;4;6;1;0.12;Recoil -1
+flechet;Small Arms;Pump Shotgun(Sawed off);1B/6S;2/5/10/22;40;3;6;1;0.12;Recoil -1
+flechet;Small Arms;Avenger CCW;2B/6BS;7/18/28/62;345;5.5;15;4;0.4;p.268
+flechet;Small Arms;M&G Flechette Rifle;1B/4BS;5/14/30/40;75;1;30;2;0.24;Needler, Burst 5, Recoil -1
+flechet;Small Arms;Needler Rifle;2B/5S;5/14/30/40 ;75;1;20;2;0.20;Needler
+flechet;Small Arms;Shreder Heavy Needler Rifle;3B/5S;3/8/15/30;150;1;10;3;0.24;Needler
+# Gauss - gaus 
+gaus;Small Arms;Gauss Pistol;4B/5;5/20/60/150 ;1500;1;4,1 PPS;1;0.01;None
+gaus;Small Arms;Gauss Pistol(Mandrake);3B/4;3/10/35/80 ;750;0.1;1;0;0.01;None
+gaus;Small Arms;Gauss Rifle(Thunderstroke);5B/6;30/80/250/700 ;2500;7;5,2 PPS;3;0.33;Encumbering
+gaus;Small Arms;Gauss Rifle(Thunderstroke II);5B/6;45/100/300/850;3500;6.5;20,1 PPS;10;0.42;None
+gaus;Small Arms;Gauss Submaschine Gun;5B/4B;30/80/250/700;2000;4.5;30,1 PPS;10;0.52;p.268
+# Gyrojet - gyrojet 
+gyrojet;Small Arms;Coventry Handrocket;4B/4;15/30/75/180;250;3.1;5;5;0.24;Gyrojet
+gyrojet;Small Arms;Gyrojet Pistol;3B/4;8/25/70/165 ;450;2.5;2;1;0.18;Gyrojet
+gyrojet;Small Arms;Gyrojet Pistol, Holdout;3B/4;3/7/12/25;30;0.05;2;1;0.02;Gyrojet
+gyrojet;Small Arms;Gyrojet Rifle;4B/5;35/90/275/500 ;1250;7;10;100;1.3;Gyrojet
+gyrojet;Small Arms;Gyrojet Gun, Heavy;4B/6;45/120/300/625 ;2500;10;5;250;1;Gyrojet, Encumbering
+gyrojet;Small Arms;Gyroslug Carbine;4B/4;20/50/120/260 ;800;4;20;5;1.84;Gyrojet
+gyrojet;Small Arms;Gyroslug Carbine(Star King);4B/5;23/65/130/285;950;5.2;20;15;2.3;Gyrojet
+gyrojet;Small Arms;Gyroslug Rifle;4B/5;25/60/150/315 ;1000;8;50;20;5.8;Gyrojet
+# Miscellaneous Ranged - miscrange 
+miscrange;Small Arms;Dart Gun;1B/3D;1/4/6/10;40;0.65;1;1;0.01;None
+miscrange;Small Arms;Flare Pistol;2B/2CS;2/5/11/20;25;0.4;5;2;0.02;p.312
+miscrange;Small Arms;"Gas Capsule Pistol(""SpitBall"")";0B/*;4/11/19/27;6;1;25;2;0.04;p.269
+miscrange;Small Arms;"LGB-46R ""Paint"" Gun";0B/0;1/2/3/4;50;1.8;15;10;0.64;p.269
+miscrange;Small Arms;Sonic Stunner;0S/4D;2/5/7/10;100;0.6;1 PPS;5;0.25;p.269
+miscrange;Small Arms;Tranq Gun;2B/4D;3/10/18/25;30;1.5;10;1;0.04;p.269
+miscrange;Small Arms;Buccaneer Gel Gun;2B/4D;3/10/18/25;200;2.5;5;20;0.85;p.269
+miscrange;Small Arms;Ceres Arms Crowdbuster;0S/5D;2/6/10/15;150;1;2 PPS;5;0.25;p.269
+miscrange;Small Arms;Radium Sniper Rifle;4S/5C;95/350/750/1500;9500;12;5,10 PPS;650;0.330;p.269
+# Machine Gun - arnigun 
+arnigun;Support Weapons;Autocannon, BearHunter;7B/7B;14/60/120/200;3000;40;180;200;9;p.273
+arnigun;Support Weapons;Autocannon, Semi-Portable;6B/3B;25/75/200/550;2000;25;200;150;8;p.273
+arnigun;Support Weapons;Federated-Barret M42B(Lt. Machine Gun Mode);4B/5B;40/90/200/475;1385;7;300;60;1.85;p.273
+arnigun;Support Weapons;Machine Gun,Light;5B/3B;30/80/190/450;400;7;45;6;2;p.273
+arnigun;Support Weapons;Machine Gun,Portable;5B/4B;30/85/200/460 ;1000;11.5;75;10;3;p.273
+arnigun;Support Weapons;Machine Gun,Semi-Portable;5B/4B;40/95/225/500;1100;20;80;10;4;p.273
+arnigun;Support Weapons;Machine Gun,Support;5B/5B;45/100/250/625;1750;44;100;50;5;p.273
+arnigun;Support Weapons;Support Needler, Firedrake;3B/7BCS;16/35/55/80;500;25;30;10;3;p.273
+# Grenade Launchers & Mortars - grenlaunch 
+grenlaunch;Support Weapons;Grenade Launcher;3X/10A;20/55/130/200 ;465;5;20;8;4.5;None
+grenlaunch;Support Weapons;Grenade Launcher, Compact;2X/8A;15/40/90/150;290;3;1;2;0.2;Simple Action Reload
+grenlaunch;Support Weapons;Grenade Launcher, Automatic;3X/10A;20/45/110/180;975;12;10;8;9;Burst 5, Recoil -2
+grenlaunch;Support Weapons;Grenade Launcher, Heavy;4X/12A;20/60/150/250 ;1500;15;20;16;12;Burst 5,Recoil -2,Encumbering
+grenlaunch;Support Weapons;Grenade Launcher, Hvy.Auto;4X/13A;25/65/150/240;4500;20;20;24;12;Burst 5,Recoil -2,Encumbering
+grenlaunch;Artillery;Mortar, Light;4X/13A;40/100/250/565 ;1400;50;1;24;2;p.273
+grenlaunch;Artillery;Mortar, Heavy;4X/14A;100/180/400/900;5000;220;1;32;4;p.273
+# Missile Launchers - misslaunch 
+misslaunch;Support Weapons;VLAW;4X/12A;35/150/295/450;75;2.2;1;16;0.6;Cannot be reloaded
+misslaunch;Support Weapons;LAW;4X/13A;55/200/335/560;350;4;1;24;2;Cannot be reloaded
+misslaunch;Support Weapons;LRM Launcher;4X/12A;75/400/1000/2100;2000;30;1;16;8.3;Encumbering
+misslaunch;Support Weapons;MRM Launcher;4X/13A;65/300/1100/1500;2500;30;1;24;5;Encumbering
+misslaunch;Support Weapons;SRM Launcher(Standart);4X/14A;60/225/425/740;1500;30;2;4;20;Encumbering
+misslaunch;Support Weapons;SRM Launcher(Light);4X/14A;55/180/270/475;1500;10;2;4;9;None
+misslaunch;Support Weapons;SRM Launcher(Heavy);4X/14A;74/235/353/530;3000;20;1;4;18;Encumbering
+misslaunch;Support Weapons;MK1 Light AA Weapon;5B/6S;40/160/320/650;1000;5;1;0;0;p.274
+misslaunch;Support Weapons;MK2 Man-Portable AA Weapon;6B/8S;60/360/900/1800;3500;35;4;1000;14;p.274
+# Recoilless Rifles - recrifle 
+recrifle;Support Weapons;Recoilless Rifle, Light;4X/12A;50/180/375/600 ;300;8;1;16;0.6;Encumbering, Back-Blast 2M
+recrifle;Support Weapons;Recoilless Rifle, Medium;4X/13A;60/200/390/640;2000;32;1;24;2;Crew 2, Back-Blast 5M
+recrifle;Support Weapons;Recoilless Rifle, Heavy;4X/14A;70/225/450/700 ;4000;60;1;4;4;Crew 3, Back-Blast 5M
+# Support Energy - supenergy 
+supenergy;Support Weapons;Dragonsbane Pulse Laser;5E/3B;60/230/500/1250;5000;7;15;0;0;p.275
+supenergy;Support Weapons;Hellbore Assault Laser;6E/6;60/205/465/1100 ;2500;10;10 PPS;5;0.25;Encumbering
+supenergy;Support Weapons;Support Laser;6E/8;100/325/760/1500 ;10000;72;10 PPS;5;0.25;Crew 2
+supenergy;Support Weapons;Support Laser, Semi-Portable;5E/7;80/300/700/1450 ;5000;40;7 PPS;5;0.25;Crew 2
+supenergy;Support Weapons;Support Laser, ER(Non-Clan);6E/8;110/400/800/1650 ;11250;110;15 PPS;5;0.25;Crew 2
+supenergy;Support Weapons;Support Laser, ER(Clan);6E/10;125/450/900/1700;11250;100;15 PPS;5;0.25;Crew 2
+supenergy;Support Weapons;Support Laser, ER(Clan, Semi-Portable);5E/8;100/350/775/1575;10000;25;10 PPS;5;0.25;Crew 2
+supenergy;Support Weapons;Support Laser Heavy;7E/12;150/500/900/1900;40000;140;20 PPS;5;0.25;Crew 3, Recharge: 1 Turn
+supenergy;Support Weapons;Support Pulse Laser;5E/5B;85/310/725/1500;16000;150;7 PPS;5;0.25;p.275
+supenergy;Support Weapons;Support Pulse Laser, Heavy;6E/5B;120/425/850/1750;60000;300;8 PPS;5;0.25;p.275
+supenergy;Support Weapons;Support Pulse Laser,  Semi-Portable;5E/4B;70/250/600/1300;12500;40;6 PPS;5;0.25;Burst 10, Crew 2
+supenergy;Support Weapons;Heavy Support Laser ER(Non-Clan);6E/10;175/625/1200/2250;80000;250;20 PPS;5;0.25;Crew 4
+supenergy;Support Weapons;Heavy Support Laser ER(Clan);6E/12;200/750/1400/2500;80000;240;20 PPS;5;0.25;Crew 3
+supenergy;Support Weapons;Heavy Support Laser Semi-Portable(Clan);6E/10;100/325/760/1500;20000;150;15 PPS;5;0.25;p.275
+supenergy;Support Weapons;Ultra-Heavy Support Laser(Clan);7E/14;150/500/950/1900;100000;250;30 PPS;5;0.25;p.275
+supenergy;Support Weapons;Flamer, Man-Pack;3E/5CS;8/20/35/70 ;100;15;12;2;8.4;p.275
+supenergy;Support Weapons;Flamer, Heavy;3E/7CS;8/20/35/70 ;200;25;3;200;2.9;Incendiary, Crew 2
+supenergy;Support Weapons;Particle cannon, Semi-portable;4E/8S;60/225/475/1200;7000;40;6 PPS;5;0.25;Crew 2, Recharge: 1 Turn
+supenergy;Support Weapons;Particle cannon, Support;5E/14S;75/275/650/1400 ;45000;1800;10 PPS;5;0.25;Crew 5, Recharge: 2 Turn
+supenergy;Support Weapons;Plasma Rifle, man-portable;5E/10CS;60/250/500/1000;7500;30;10,5 PPS;10;0.25;Encumbering, Incendiary
+supenergy;Support Weapons;TAG, Light(Man Portable);0E/0;150/500/950/1900;40000;20;5 PPS;5;0.25;Encumbering
+# Support Gauss - supgauss 
+supenergy;Support Weapons;David Light Gauss Rifle;5B/5;90/330/745/1535;6000;18;8,8 PPS;20;2;p.278
+supenergy;Support Weapons;David Mauler Gauss Rifle;6B/6;45/120/375/1000 ;5000;14;5,6 PPS;5;4.5;p.278
+supenergy;Support Weapons;King David Light Gauss Rifle;6B/5;100/350/775/1575;8000;30;80,8 PPS;200;20;p.278
+supenergy;Support Weapons;Magshot Gauss Rifle;6B/7;70/280/600/1250 ;8500;45;20,3 PPS;10;16.5;p.278
+supenergy;Support Weapons;Tsunami Heavy Gauss Rifle;6B/6;45/135/400/1070 ;5500;12.5;5,8 PPS;5;4.5;p.278
+# Standart Explosives - stdexpl 
+stdexpl;Thrown Weapons;Grenade, Micro;2X/8A;str x 1/2/3/4;2;0.2;1;0;0;Indirect
+stdexpl;Thrown Weapons;Grenade, Mini;3X/10A;str x 1/2/3/4;10;0.45;1;0;0;Indirect
+stdexpl;Thrown Weapons;Grenade;4X/12A;str x 1/2/3/4;20;0.6;1;0;0;Indirect
+stdexpl;Thrown Weapons;Grenade, Rocket-Assisted;5X/10A;str x 1/2/3/4;50;0.6;1;0;0;p.278
+stdexpl;Demolitions;Mine, Active;4X/13A;0;1000;5;0;0;0;p.278
+stdexpl;Demolitions;Mine, Command-Detonated;4X/14A;0;75;0.6;0;0;0;p.278
+stdexpl;Demolitions;Mine, Standart;4X/14A;0;50;0.5;0;0;0;p.278
+stdexpl;Demolitions;Mine, VibraBomb;4X/14A;0;500;0.5;0;0;0;p.278
+# Demolutions - bigbadaboom 
+bigbadaboom;Demolitions;C8,Blasting Block;7X/10A;0;50;1;1;0;0;p.278
+bigbadaboom;Demolitions;C8,Satchel Block;8X/12A;str x 0.5/1/1.5/2;210;4.5;1;0;0;p.278
+bigbadaboom;Demolitions;Pentaglycerine;7X/10A;0;150;0.2;1;0;0;p.278
+# Weapons Accessories - weaponaccess 

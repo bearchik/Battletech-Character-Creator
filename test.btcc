@@ -1,0 +1,105 @@
+name:Miralessa
+aff:Cappelan Confederation
+subaff:Crucis March
+clancaste:For Clans Only
+earlychild:Back Woods
+latechild:Adolescent Warfare
+schoolname:University
+basicschool:Scientist
+advschool:Technician - Mech
+specschool:Technician - Mech
+reallife:Tour Of Duty
+phenotype:Phenotype/Normal Human
+nameplanet:
+sex:Male
+age:24
+haircolor:Brown
+eyecolor:Green
+height:175
+weight:80
+gmxpmod:788
+cbillmod:0
+attr:BOD=500
+attr:CHA=100
+attr:DEX=100
+attr:EDG=100
+attr:INT=400
+attr:RFL=200
+attr:STR=400
+attr:WIL=200
+skill:Language/English=40
+skill:Perception=115
+skill:Protocol/FedSuns=70
+skill:Martial Arts=75
+skill:Art/Oral Tradition=10
+skill:Melee Weapons=35
+skill:Navigation/Ground=10
+skill:Running=50
+skill:Tracking/Wilds=10
+skill:Survival/Desert=40
+skill:Leadership=40
+skill:MedTech=45
+skill:Negotiation=30
+skill:Small Arms=52
+skill:Stealth=30
+skill:Streetwise/FedSuns=45
+skill:Computers=55
+skill:Interest/Star League History=20
+skill:Training=30
+skill:Investigation=30
+skill:Career/Scientist=30
+skill:Technician/Nuclear=60
+skill:Technician/Myomer=60
+skill:Technician/Mechanical=60
+skill:Technician/Jet=60
+skill:Technician/Electronic=60
+skill:Career/Soldier=50
+trait:Natural Aptitude/Protocol=100
+trait:Fit=100
+trait:Toughness=100
+trait:Combat Sense=100
+trait:Connections=200
+trait:Rank=100
+trait:Wealth=300
+equip:Marian/Gloves;30;0.5;HAN;1/1/1/1;None;1
+equip:Marian/Boots;48;2;F;2/3/3/1;None;1
+equip:Marian/Suit;1200;10;TAL;3/6/4/3;None;1
+equip:Marian/Helmet;300;1;H;5/6/5/2;p.292;1
+preattr:BOD=500
+preattr:INT=400
+preattr:STR=400
+equiploc:Arms=Marian/Suit
+equiploc:Feet=Marian/Boots
+equiploc:Hands=Marian/Gloves
+equiploc:Head=Marian/Helmet
+equiploc:Legs=Marian/Suit
+equiploc:Torso=Marian/Suit
+weapon:Small Arms;Sniper Rifle(Minolta 9000);5B/4;50/160/360/730;1000;6;10;5;0.12;None;1
+weapon:None;\_Ammo Sniper Rifle(Minolta 9000);0;0;45;1.08;10;2;0.14;None;9
+weapon:Melee Weapons;Dagger;1M/1;1;8;0.25;0;0;0;None;1
+weapon:None;Power Pack;0;0;5;0.25;20 PP;2;0.14;None;1
+weapon:None;Power Pack;0;0;5;0.25;20 PP;2;0.14;None;1
+weapon:None;Power Pack;0;0;5;0.25;20 PP;2;0.14;None;1
+weapon:Small Arms;Pulse Laser Pistol, Clan;3E/3B;15/35/80/200;1500;1;3 PPS;5;0.25;Burst 5, Recoil 0;1
+chrweapon:Sniper Rifle(Minolta 9000)
+chrweapon:Dagger
+chrweapon:Pulse Laser Pistol, Clan
+<notes>
+-----Wizard Data-----
+Affilation: Cappelan Confederation
+SubAffilation: Crucis March
+Cast: For Clans Only
+Early Childhood: Back Woods
+Late Childhood: Adolescent Warfare
+School: University
+Basic school: Scientist
+Advanced school: Technician - Mech
+Special school: Technician - Mech
+Real Life: Tour Of Duty
+
+
+
+
+
+
+</notes>

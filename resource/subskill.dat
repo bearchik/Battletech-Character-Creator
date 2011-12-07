@@ -1,0 +1,219 @@
+Animal Handling;Herding
+Animal Handling;Riding
+Animal Handling;Training
+Art;Dance
+Art;Drawing
+Art;Music
+Art;Painting
+Art;Poetry
+Art;Sculpture
+Art;Songwriting
+Art;Writing
+Career;Doctor
+Career;Lawyer
+Career;Soldier
+Career;Accountant
+Career;Cook
+Career;Mangement
+Career;Jounalist
+Communications;Black Box
+Communications;Conventional
+Communications;Hyperpulse Generator
+Driving;Ground Vehicles
+Driving;Rail Vehicles
+Driving;Sea Vehicles
+Gunnery;Aerospace
+Gunnery;Air Vehicle
+Gunnery;Ground Vehicle
+Gunnery;Sea Vehicle
+Gunnery;Mech
+Gunnery;ProtoMech
+Gunnery;Turret
+Gunnery;Battlesuit
+Interests;BattleMechs
+Interests;Battlesuits
+Interests;Aerospace
+Interests;Spacecraft
+Interests;Aircraft
+Interests;Ground Vehicles
+Interests;Sea Vehicles
+Interests;Rail Vehicles
+Interests;FedSuns History
+Interests;Regulan History
+Interests;History (Star League)
+Interests;History (Terran)
+Interests;History (Clan)
+Interests;History (Inner Sphere)
+Interests;History (Periphery)
+Interests;Literature
+Interests;Holo-Games
+Interests;Sports
+Interests;Weapons
+Interests;Martial Arts
+Interests;GameMastering for Battletech
+Language;English
+Language;Japanese
+Language;Russian
+Language;German
+Language;French
+Language;Hindi
+Language;Mandarin Chinese
+Language;Vietnamese
+Language;Cantonese
+Language;Arabic
+Language;Swedenese
+Language;Greek
+Language;Italian
+Language;Romanian
+Language;Slovak
+Language;Spanish
+Medtech;General
+Medtech;Veterinary
+Navigation;Ground
+Navigation;Air
+Navigation;Sea
+Navigation;Space
+Navigation;K-F Jump
+Piloting;Aerospace
+Piloting;Air Vehicle
+Piloting;Ground Vehicle
+Piloting;'Mech
+Piloting;Sea Vehicle
+Piloting;Rail Vehicle
+Piloting;Spacecraft
+Prestidigitation;Pick Pocket
+Prestidigitation;Quick Draw
+Prestidigitation;Sleight of Hand
+Protocol;Capellan
+Protocol;Draconis
+Protocol;FedSuns
+Protocol;FreeWorlds
+Protocol;Lyran
+Protocol;Rasalhague
+Protocol;Invading Clan (Ghost Bear)
+Protocol;Invading Clan (Diamond Shark)
+Protocol;Invading Clan (Nova Cat)
+Protocol;Invading Clan (Jade Falcon)
+Protocol;Invading Clan (Hell's Horses)
+Protocol;Invading Clan (Snow Raven)
+Protocol;Invading Clan (Wolf)
+Protocol;Homeworld Clan (Blood Spirit)
+Protocol;Homeworld Clan (Cloud Cobra)
+Protocol;Homeworld Clan (Coyote)
+Protocol;Homeworld Clan (Fire Mandril)
+Protocol;Homeworld Clan (Goliath Scorpion)
+Protocol;Homeworld Clan (Ice Hellion)
+Protocol;Homeworld Clan (Star Adder)
+Protocol;Homeworld Clan (Steel Viper)
+Protocol;Minor Periphery(Novo Franklin)
+Protocol;Minor Periphery(Fiefdom)
+Protocol;Minor Periphery(Mica Majority)
+Protocol;Minor Periphery(Niops Association)
+Protocol;Minor Periphery(Rim Collection)
+Protocol;Major Periphery(Magistracy)
+Protocol;Major Periphery(Circinus)
+Protocol;Major Periphery(Marian)
+Protocol;Major Periphery(Outworlds)
+Protocol;Major Periphery(Taurian)
+Protocol;Deep Periphery(Hanseatic)
+Protocol;Deep Periphery(Castilian)
+Protocol;Deep Periphery(Umayyad)
+Protocol;Deep Periphery(Jarn Folk Families)
+Protocol;Terran (Terran Citizen)
+Protocol;Terran (Lunar Citizen)
+Protocol;Terran (Marian Citizen)
+Protocol;Terran (Venusian Citizen)
+Protocol;Terran (Belter)
+Protocol;Terran (Outer System Citizen)
+Protocol;Independent(Antallos)
+Protocol;Independent(Astrokaszy)
+Protocol;Independent(Generic)
+Protocol;Independent(Mercenary)
+Protocol;Independent(Pirate)
+Protocol;Independent(Spacer)
+Protocol;Independent(Tortuga)
+Protocol;Comstar
+Protocol;Word of Blake
+Science;Biology
+Science;Chemestry
+Science;Mathematics
+Science;Physics
+Science;Matallurgy
+Security Systems;Electronic
+Security Systems;Mechanical
+Streetwise;Capellan
+Streetwise;Draconis
+Streetwise;FedSuns
+Streetwise;FreeWorlds
+Streetwise;Lyran
+Streetwise;Rasalhague
+Streetwise;Invading Clan (Ghost Bear)
+Streetwise;Invading Clan (Diamond Shark)
+Streetwise;Invading Clan (Nova Cat)
+Streetwise;Invading Clan (Jade Falcon)
+Streetwise;Invading Clan (Hell's Horses)
+Streetwise;Invading Clan (Snow Raven)
+Streetwise;Invading Clan (Wolf)
+Streetwise;Homeworld Clan (Blood Spirit)
+Streetwise;Homeworld Clan (Cloud Cobra)
+Streetwise;Homeworld Clan (Coyote)
+Streetwise;Homeworld Clan (Fire Mandril)
+Streetwise;Homeworld Clan (Goliath Scorpion)
+Streetwise;Homeworld Clan (Ice Hellion)
+Streetwise;Homeworld Clan (Star Adder)
+Streetwise;Homeworld Clan (Steel Viper)
+Streetwise;Minor Periphery(Novo Franklin)
+Streetwise;Minor Periphery(Fiefdom)
+Streetwise;Minor Periphery(Mica Majority)
+Streetwise;Minor Periphery(Niops Association)
+Streetwise;Minor Periphery(Rim Collection)
+Streetwise;Major Periphery(Magistracy)
+Streetwise;Major Periphery(Circinus)
+Streetwise;Major Periphery(Marian)
+Streetwise;Major Periphery(Outworlds)
+Streetwise;Major Periphery(Taurian)
+Streetwise;Deep Periphery(Hanseatic)
+Streetwise;Deep Periphery(Castilian)
+Streetwise;Deep Periphery(Umayyad)
+Streetwise;Deep Periphery(Jarn Folk Families)
+Streetwise;Terran (Terran Citizen)
+Streetwise;Terran (Lunar Citizen)
+Streetwise;Terran (Marian Citizen)
+Streetwise;Terran (Venusian Citizen)
+Streetwise;Terran (Belter)
+Streetwise;Terran (Outer System Citizen)
+Streetwise;Independent(Antallos)
+Streetwise;Independent(Astrokaszy)
+Streetwise;Independent(Generic)
+Streetwise;Independent(Mercenary)
+Streetwise;Independent(Pirate)
+Streetwise;Independent(Spacer)
+Streetwise;Independent(Tortuga)
+Streetwise;Comstar
+Streetwise;Word of Blake
+Surgery;General
+Surgery;Veterinary
+Survival;Arctic
+Survival;Forests
+Survival;Desert
+Survival;Jungle
+Survival;Ocean
+Survival;Mountain
+Survival;Steppe
+Tactics;Infantry
+Tactics;Land
+Tactics;Sea
+Tactics;Air
+Tactics;Space
+Technician;Aeronautics
+Technician;Cybernetics
+Technician;Electronic
+Technician;Jets
+Technician;Mechanical
+Technician;Myomer
+Technician;Nuclear
+Technician;Weapons
+Thrown Weapons;Blade
+Thrown Weapons;Blunt
+Tracking;Urban
+Tracking;Wilds

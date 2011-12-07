@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GMCharTools</class>
+ <widget class="QDialog" name="GMCharTools">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>232</width>
+    <height>226</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>232</horstretch>
+    <verstretch>226</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>232</width>
+    <height>226</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>232</width>
+    <height>226</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>GameMaster Tools</string>
+  </property>
+  <widget class="QDialogButtonBox" name="buttonBox">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>190</y>
+     <width>161</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>211</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Add money</string>
+   </property>
+   <widget class="QLineEdit" name="FromMoneyAddGm">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>40</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+    <property name="maxLength">
+     <number>9</number>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="FromValuteGm">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>111</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>C-bill</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yuan (L-bill)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kroner (S-bill)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Pound (D-bill)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ryu (K-bill)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Eagle (M-bill)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Krona (R-bill)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kerensky</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Taurian Bull</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Calderon Bull</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Canopian Dollar</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fronc Dollar</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Escudo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Talent</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Skull</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>22</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>From</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>63</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>To</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="ToMoneyAddGm">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>81</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+    <property name="maxLength">
+     <number>9</number>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="ToValuteGm">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>81</y>
+      <width>111</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>C-bill</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yuan (L-bill)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kroner (S-bill)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Pound (D-bill)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ryu (K-bill)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Eagle (M-bill)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Krona (R-bill)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kerensky</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Taurian Bull</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Calderon Bull</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Canopian Dollar</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fronc Dollar</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Escudo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Talent</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Skull</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>120</y>
+     <width>211</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Add XP</string>
+   </property>
+   <widget class="QLineEdit" name="XPAddGM">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>191</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+    <property name="maxLength">
+     <number>10</number>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>GMCharTools</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>GMCharTools</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

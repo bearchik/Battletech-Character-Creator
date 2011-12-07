@@ -1,0 +1,176 @@
+name:Enter name
+aff:Federated Suns
+subaff:
+clancaste:For Clans Only
+earlychild:Back Woods
+latechild:Adolescent Warfare
+schoolname:
+basicschool:
+advschool:
+specschool:
+reallife:
+phenotype:Phenotype/Normal Human
+nameplanet:
+sex:Male
+age:16
+haircolor:Brown
+eyecolor:Green
+height:175
+weight:80
+gmxpmod:400
+cbillmod:0
+attr:BOD=500
+attr:CHA=100
+attr:DEX=200
+attr:EDG=100
+attr:INT=400
+attr:RFL=215
+attr:STR=400
+attr:WIL=150
+skill:Acrobatics/Free-Fall=2
+skill:Acrobatics/Gymnastics=2
+skill:Acting=2
+skill:Administration=2
+skill:Animal Handling/Herding=3
+skill:Animal Handling/Riding=1
+skill:Animal Handling/Training=2
+skill:Appraisal=5
+skill:Archery=1
+skill:Art=2
+skill:Artillery=1
+skill:Career=3
+skill:Climbing=2
+skill:Communications/Black Box=3
+skill:Communications/Conventional EM=2
+skill:Communications/Hyperpulse Generator=2
+skill:Computers=22
+skill:Cryptography=1
+skill:Demolitions=2
+skill:Disguise=2
+skill:Driving/Ground Vehicles=2
+skill:Driving/Rail Vehicles=1
+skill:Driving/Sea Vehicles=2
+skill:Escape Artist=2
+skill:Forgery=2
+skill:Gunnery/'Mech=3
+skill:Gunnery/Aerospace=2
+skill:Gunnery/Air Vehicle=2
+skill:Gunnery/Battlesuit=2
+skill:Gunnery/Ground Vehicle=1
+skill:Gunnery/ProtoMech=2
+skill:Gunnery/Sea Vehicle=2
+skill:Gunnery/Spacecraft=1
+skill:Gunnery/Turret=2
+skill:Interest=1
+skill:Interrogation=2
+skill:Investigation=2
+skill:Language=1
+skill:Language/English=10
+skill:Leadership=27
+skill:Martial Arts=12
+skill:MedTech=25
+skill:MedTech/General=1
+skill:MedTech/Veterinary=2
+skill:Melee Weapons=37
+skill:Navigation/Air=1
+skill:Navigation/Ground=12
+skill:Navigation/K-F Jump=2
+skill:Navigation/Sea=2
+skill:Navigation/Space=2
+skill:Negotiation=16
+skill:Perception=42
+skill:Piloting/'Mech=1
+skill:Piloting/Aerospace=1
+skill:Piloting/Battlesuit=1
+skill:Piloting/ProtoMech=2
+skill:Piloting/Spacecraft=2
+skill:Prestidigitation/Pick Pocket=1
+skill:Prestidigitation/Quickdraw=2
+skill:Prestidigitation/Sleight of Hand=2
+skill:Protocol=1
+skill:Running=51
+skill:Science=2
+skill:Security Systems/Electronic=2
+skill:Security Systems/Mechanical=1
+skill:Sensor Operations=2
+skill:Small Arms=22
+skill:Stealth=31
+skill:Strategy=3
+skill:Streetwise=2
+skill:Streetwise/FedSuns=45
+skill:Support Weapons=1
+skill:Surgery=1
+skill:Survival/Desert=40
+skill:Tactics/Air=1
+skill:Tactics/Infantry=1
+skill:Tactics/Land=2
+skill:Tactics/Sea=1
+skill:Tactics/Space=1
+skill:Technician/Aeronautics=1
+skill:Technician/Electronic=2
+skill:Technician/Jets=1
+skill:Technician/Mechanical=1
+skill:Technician/Nuclear=1
+skill:Thrown Weapons/Blunt Weapons=1
+skill:Tracking/Urban=1
+skill:Tracking/Wilds=10
+skill:Training=1
+trait:Animal Empathy=1
+trait:Citizenship/Trueborn=1
+trait:Combat Sense=80
+trait:Compulsion=1
+trait:Compulsion/Paranoid=-20
+trait:Connections=30
+trait:Dependent=1
+trait:Enemy=-38
+trait:Equipped=102
+trait:Except Attribute=1
+trait:Extra Income=1
+trait:Fast Learner=1
+trait:Fit=102
+trait:G-Tolerance=2
+trait:Glass Jaw=2
+trait:Good Hearing=2
+trait:Good Vision=2
+trait:Gregarious=3
+trait:Gremlins=1
+trait:Handicap=1
+trait:Illiterate=-73
+trait:Impatient=2
+trait:Implant/Prosthetic=3
+trait:In For Life=1
+trait:Introvert=3
+trait:Lost Limb=1
+trait:Natural Aptitude=1
+trait:Natural Aptitude/Protocol=100
+trait:Pain Resistance=1
+trait:Patient=1
+trait:Phenotype=2
+trait:Poison Resistance=2
+trait:Poor Hearing=1
+trait:Poor Vision=1
+trait:Property=1
+trait:Rank=2
+trait:Reputation=1
+trait:Sixth Sense=1
+trait:Slow Learner=2
+trait:Toughness=75
+trait:Wealth=-95
+preattr:BOD=500
+preattr:INT=400
+preattr:STR=400
+<notes>
+-----Wizard Data-----
+Affilation: Federated Suns
+SubAffilation: 
+Cast: For Clans Only
+Early Childhood: Back Woods
+Late Childhood: Adolescent Warfare
+School: 
+Basic school: 
+Advanced school: 
+Special school: 
+Real Life: 
+
+
+</notes>

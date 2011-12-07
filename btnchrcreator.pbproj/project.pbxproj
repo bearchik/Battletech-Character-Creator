@@ -1,0 +1,1593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 34;
+	objects = {
+		D7BA7D76DAB5DD13389D6332 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			generatedFileNames = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			name = "Qt Qmake";
+			neededFileNames = (
+				);
+			shellPath = "/bin/sh";
+			shellScript = "make\ -C\ /Volumes/NO\ NAME/btnchrcreator\ -f\ \'btnchrcreator.pbproj/qt_makeqmake.mak\'";
+		};
+		0BA95E1E2D6CDCF24FCCAD32 = {
+			isa = PBXFileReference;
+			name = "about.cpp";
+			path = "about.cpp";
+			refType = 4;
+		};
+		C4F403DCEB54B143027F6ECA = {
+			fileRef = "0BA95E1E2D6CDCF24FCCAD32";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		719CBB4D4128AAAA0C64474B = {
+			isa = PBXFileReference;
+			name = "aff_combox.cpp";
+			path = "aff_combox.cpp";
+			refType = 4;
+		};
+		2C43D9A7D2F9AAE41504661C = {
+			fileRef = "719CBB4D4128AAAA0C64474B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		72A3DC181DE3C87F386373A1 = {
+			isa = PBXFileReference;
+			name = "carierfields.cpp";
+			path = "carierfields.cpp";
+			refType = 4;
+		};
+		241D6C5DF16D41A0BCFCD81F = {
+			fileRef = "72A3DC181DE3C87F386373A1";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		34FE677DA4EC1AF22927127B = {
+			isa = PBXFileReference;
+			name = "chardata.cpp";
+			path = "chardata.cpp";
+			refType = 4;
+		};
+		1E0FDF9D215DA2757F7A7CB0 = {
+			fileRef = "34FE677DA4EC1AF22927127B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		85546F46FD525F759608A5C8 = {
+			isa = PBXFileReference;
+			name = "chekver.cpp";
+			path = "chekver.cpp";
+			refType = 4;
+		};
+		7E88B98DC9BCD945358C1693 = {
+			fileRef = "85546F46FD525F759608A5C8";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		81EB993981F49DF123FDCC41 = {
+			isa = PBXFileReference;
+			name = "gmchartools.cpp";
+			path = "gmchartools.cpp";
+			refType = 4;
+		};
+		6B93F57F07BB46DE253EDCA1 = {
+			fileRef = "81EB993981F49DF123FDCC41";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E2FCA20578F87D34F1E4E9E0 = {
+			isa = PBXFileReference;
+			name = "loadresurce.cpp";
+			path = "loadresurce.cpp";
+			refType = 4;
+		};
+		4DDD306461B4E176E5D8D591 = {
+			fileRef = "E2FCA20578F87D34F1E4E9E0";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		118FCBAABA162BA17933C789 = {
+			isa = PBXFileReference;
+			name = "main.cpp";
+			path = "main.cpp";
+			refType = 4;
+		};
+		2B093CA6F071B023A473CED0 = {
+			fileRef = "118FCBAABA162BA17933C789";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		EA177DE95BF7D3EF58EE43F7 = {
+			isa = PBXFileReference;
+			name = "mainwindow.cpp";
+			path = "mainwindow.cpp";
+			refType = 4;
+		};
+		462C0F34BBEF2375A9469BB5 = {
+			fileRef = "EA177DE95BF7D3EF58EE43F7";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		D4A6B427DFFC040405553C58 = {
+			isa = PBXFileReference;
+			name = "preqdialog.cpp";
+			path = "preqdialog.cpp";
+			refType = 4;
+		};
+		D147AF2316E9F60EEBDD504E = {
+			fileRef = "D4A6B427DFFC040405553C58";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		99DF13005F65D271553AC201 = {
+			isa = PBXFileReference;
+			name = "s0moredialog.cpp";
+			path = "s0moredialog.cpp";
+			refType = 4;
+		};
+		D4C5884F2A65F0ABD8E8EC65 = {
+			fileRef = "99DF13005F65D271553AC201";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		486E0B90B5DAA9EE16B91640 = {
+			isa = PBXFileReference;
+			name = "s1moredialog.cpp";
+			path = "s1moredialog.cpp";
+			refType = 4;
+		};
+		F927004B44E5F06F06B2B596 = {
+			fileRef = "486E0B90B5DAA9EE16B91640";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C3BB0B4545B53F64C51D1686 = {
+			isa = PBXFileReference;
+			name = "s2advdialog.cpp";
+			path = "s2advdialog.cpp";
+			refType = 4;
+		};
+		6C74FBDF081B9A354E8B2C19 = {
+			fileRef = "C3BB0B4545B53F64C51D1686";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E38FF7845C485C524A8EE328 = {
+			isa = PBXFileReference;
+			name = "s2clanfielddialog.cpp";
+			path = "s2clanfielddialog.cpp";
+			refType = 4;
+		};
+		CC18A270846E3A4D4A3FC734 = {
+			fileRef = "E38FF7845C485C524A8EE328";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E24734CB90186EC5F2A56DDB = {
+			isa = PBXFileReference;
+			name = "s2flexxpdialog.cpp";
+			path = "s2flexxpdialog.cpp";
+			refType = 4;
+		};
+		4136E68AC9C4613F4946AF61 = {
+			fileRef = "E24734CB90186EC5F2A56DDB";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		0CB826D22FFFAEA9B9AF6D5D = {
+			isa = PBXFileReference;
+			name = "s3fielddialog.cpp";
+			path = "s3fielddialog.cpp";
+			refType = 4;
+		};
+		30946802BA966EFDB01E65D5 = {
+			fileRef = "0CB826D22FFFAEA9B9AF6D5D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		74A03A3392B796A936872D68 = {
+			isa = PBXFileReference;
+			name = "s4advdial.cpp";
+			path = "s4advdial.cpp";
+			refType = 4;
+		};
+		37528657E5DADDACC3490668 = {
+			fileRef = "74A03A3392B796A936872D68";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		61924C71508DB5EF6E6E5F5D = {
+			isa = PBXFileReference;
+			name = "spinbox.cpp";
+			path = "spinbox.cpp";
+			refType = 4;
+		};
+		4C886E5238E8073A40D2143E = {
+			fileRef = "61924C71508DB5EF6E6E5F5D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		9D49283323386B577CA7BED8 = {
+			isa = PBXFileReference;
+			name = "stage1_resurce.cpp";
+			path = "stage1_resurce.cpp";
+			refType = 4;
+		};
+		17268658CDBF8171F02CF1F9 = {
+			fileRef = "9D49283323386B577CA7BED8";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		A7BCA443829DDA2868141EFC = {
+			isa = PBXFileReference;
+			name = "stage2_resurce.cpp";
+			path = "stage2_resurce.cpp";
+			refType = 4;
+		};
+		0829264F941905F5314CEBA0 = {
+			fileRef = "A7BCA443829DDA2868141EFC";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		15C0FBC7598EA3D5ECA4BDF4 = {
+			isa = PBXFileReference;
+			name = "stage3_resurce.cpp";
+			path = "stage3_resurce.cpp";
+			refType = 4;
+		};
+		BA73F8269B3E5FFF1B28BE1F = {
+			fileRef = "15C0FBC7598EA3D5ECA4BDF4";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		AC46E1B036269B6515EB3AB0 = {
+			isa = PBXFileReference;
+			name = "stage4_resurce.cpp";
+			path = "stage4_resurce.cpp";
+			refType = 4;
+		};
+		675C398E3982C181802D41D4 = {
+			fileRef = "AC46E1B036269B6515EB3AB0";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		4BA1536230EF579367E0B1B2 = {
+			isa = PBXFileReference;
+			name = "text_resurce.cpp";
+			path = "text_resurce.cpp";
+			refType = 4;
+		};
+		9D13D1DF600DFC84722DFCBA = {
+			fileRef = "4BA1536230EF579367E0B1B2";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		7DE3FC13484B38253B5C4680 = {
+			isa = PBXFileReference;
+			name = "wizard.cpp";
+			path = "wizard.cpp";
+			refType = 4;
+		};
+		E33B542018308FC49A8D9147 = {
+			fileRef = "7DE3FC13484B38253B5C4680";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B287FF8403470F3FE6A12025 = {
+			isa = PBXFileReference;
+			name = "moc_about.cpp";
+			path = "moc_about.cpp";
+			refType = 4;
+		};
+		39528B847D889AEC837D9D25 = {
+			fileRef = "B287FF8403470F3FE6A12025";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		CA0BC71EAC69C6C664828017 = {
+			isa = PBXFileReference;
+			name = "moc_aff_combox.cpp";
+			path = "moc_aff_combox.cpp";
+			refType = 4;
+		};
+		0F7D99545E128645A4FEB6A1 = {
+			fileRef = "CA0BC71EAC69C6C664828017";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		83FD2F3DD31FB8396E77BDC9 = {
+			isa = PBXFileReference;
+			name = "moc_carierfields.cpp";
+			path = "moc_carierfields.cpp";
+			refType = 4;
+		};
+		01BD0F52D258AF256AE475CA = {
+			fileRef = "83FD2F3DD31FB8396E77BDC9";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		EFD01086E227A837CAE14FC4 = {
+			isa = PBXFileReference;
+			name = "moc_chardata.cpp";
+			path = "moc_chardata.cpp";
+			refType = 4;
+		};
+		A22CD9CE56DB211CEFCA1A86 = {
+			fileRef = "EFD01086E227A837CAE14FC4";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		61C047D43E5DE2E27C53F249 = {
+			isa = PBXFileReference;
+			name = "moc_chekver.cpp";
+			path = "moc_chekver.cpp";
+			refType = 4;
+		};
+		101F6E28D626B67E771F4016 = {
+			fileRef = "61C047D43E5DE2E27C53F249";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		F47DB8BBBC2BD318B3CB4D2E = {
+			isa = PBXFileReference;
+			name = "moc_gmchartools.cpp";
+			path = "moc_gmchartools.cpp";
+			refType = 4;
+		};
+		00CEA66EEDAAC4A720AB8DFB = {
+			fileRef = "F47DB8BBBC2BD318B3CB4D2E";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		336D3C48DD3B44974395C633 = {
+			isa = PBXFileReference;
+			name = "moc_mainwindow.cpp";
+			path = "moc_mainwindow.cpp";
+			refType = 4;
+		};
+		26C2BED6C570C95F5243C556 = {
+			fileRef = "336D3C48DD3B44974395C633";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		F356130FABF1A17D59E4CB40 = {
+			isa = PBXFileReference;
+			name = "moc_preqdialog.cpp";
+			path = "moc_preqdialog.cpp";
+			refType = 4;
+		};
+		310E594A90615DEB7808D3B2 = {
+			fileRef = "F356130FABF1A17D59E4CB40";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		127BBEEE45B3DD6757290F55 = {
+			isa = PBXFileReference;
+			name = "moc_s0moredialog.cpp";
+			path = "moc_s0moredialog.cpp";
+			refType = 4;
+		};
+		EDE8D22F0C105355E6104793 = {
+			fileRef = "127BBEEE45B3DD6757290F55";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E19B05B2A2E093D8A8837CFE = {
+			isa = PBXFileReference;
+			name = "moc_s1moredialog.cpp";
+			path = "moc_s1moredialog.cpp";
+			refType = 4;
+		};
+		B75718EDACAD22CF0CD37B1C = {
+			fileRef = "E19B05B2A2E093D8A8837CFE";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		ACB791C9C7FE262D4D6F122B = {
+			isa = PBXFileReference;
+			name = "moc_s2advdialog.cpp";
+			path = "moc_s2advdialog.cpp";
+			refType = 4;
+		};
+		613B0A9999F64FE0DC531976 = {
+			fileRef = "ACB791C9C7FE262D4D6F122B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		607C42F7AE7AF17CD2AA1544 = {
+			isa = PBXFileReference;
+			name = "moc_s2clanfielddialog.cpp";
+			path = "moc_s2clanfielddialog.cpp";
+			refType = 4;
+		};
+		E3DFB14CBEAC896806C61656 = {
+			fileRef = "607C42F7AE7AF17CD2AA1544";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		1A085619E42E866426C957B1 = {
+			isa = PBXFileReference;
+			name = "moc_s2flexxpdialog.cpp";
+			path = "moc_s2flexxpdialog.cpp";
+			refType = 4;
+		};
+		AFEE1697E4007A9AE04D4978 = {
+			fileRef = "1A085619E42E866426C957B1";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		68BFCDCCF846A6B23A1F38E3 = {
+			isa = PBXFileReference;
+			name = "moc_s3fielddialog.cpp";
+			path = "moc_s3fielddialog.cpp";
+			refType = 4;
+		};
+		751957F37ED2A4BAC2829109 = {
+			fileRef = "68BFCDCCF846A6B23A1F38E3";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		7B1B2140B539F537EFDF726C = {
+			isa = PBXFileReference;
+			name = "moc_s4advdial.cpp";
+			path = "moc_s4advdial.cpp";
+			refType = 4;
+		};
+		595BB7B09A2F61C36445EEE1 = {
+			fileRef = "7B1B2140B539F537EFDF726C";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		095E8FA5FFBE4E4F120B526F = {
+			isa = PBXFileReference;
+			name = "moc_spinbox.cpp";
+			path = "moc_spinbox.cpp";
+			refType = 4;
+		};
+		8CDEBB1ABD9EDC9E7F25051A = {
+			fileRef = "095E8FA5FFBE4E4F120B526F";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C374145DFFA61D42A59B7C02 = {
+			isa = PBXFileReference;
+			name = "moc_stage1_resurce.cpp";
+			path = "moc_stage1_resurce.cpp";
+			refType = 4;
+		};
+		39D40F04760F97576421A46F = {
+			fileRef = "C374145DFFA61D42A59B7C02";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		D6629BB08C09D823B99B69EC = {
+			isa = PBXFileReference;
+			name = "moc_stage2_resurce.cpp";
+			path = "moc_stage2_resurce.cpp";
+			refType = 4;
+		};
+		DEA8A96FA49F31E7F426D47F = {
+			fileRef = "D6629BB08C09D823B99B69EC";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		6CF4366A5739B163412F6758 = {
+			isa = PBXFileReference;
+			name = "moc_stage3_resurce.cpp";
+			path = "moc_stage3_resurce.cpp";
+			refType = 4;
+		};
+		519A457E47490579B2FF46C1 = {
+			fileRef = "6CF4366A5739B163412F6758";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		CC57C92645A4B38CBBF0A1B5 = {
+			isa = PBXFileReference;
+			name = "moc_stage4_resurce.cpp";
+			path = "moc_stage4_resurce.cpp";
+			refType = 4;
+		};
+		4634E76CD1124AFDA388C272 = {
+			fileRef = "CC57C92645A4B38CBBF0A1B5";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		DF4588B89164D4B96FF29CA9 = {
+			isa = PBXFileReference;
+			name = "moc_text_resurce.cpp";
+			path = "moc_text_resurce.cpp";
+			refType = 4;
+		};
+		DF03289AA74F02045362A59D = {
+			fileRef = "DF4588B89164D4B96FF29CA9";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		6930364E6B4FBD2C7EA9A6D9 = {
+			isa = PBXFileReference;
+			name = "moc_wizard.cpp";
+			path = "moc_wizard.cpp";
+			refType = 4;
+		};
+		764973E6C3419D14DA845360 = {
+			fileRef = "6930364E6B4FBD2C7EA9A6D9";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		789921218F2EB16216C7696C = {
+			isa = PBXFileReference;
+			name = "qrc_resurce_btnchrcr.cpp";
+			path = "qrc_resurce_btnchrcr.cpp";
+			refType = 4;
+		};
+		08DF0BC33494FCF2ECDFF5FE = {
+			fileRef = "789921218F2EB16216C7696C";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		3BC338EB54B5D323151DEF99 = {
+			isa = PBXFileReference;
+			name = "ui_about.h";
+			path = "ui_about.h";
+			refType = 4;
+		};
+		9FDF3C675EC7975DB4D3760D = {
+			isa = PBXFileReference;
+			name = "ui_gmchartools.h";
+			path = "ui_gmchartools.h";
+			refType = 4;
+		};
+		AFB98B37FF0012B837A2131C = {
+			isa = PBXFileReference;
+			name = "ui_mainwindow.h";
+			path = "ui_mainwindow.h";
+			refType = 4;
+		};
+		A23DA05D0ABEF9AD010045CD = {
+			isa = PBXFileReference;
+			name = "ui_preqdialog.h";
+			path = "ui_preqdialog.h";
+			refType = 4;
+		};
+		832C276FD310B2F9A3484F62 = {
+			isa = PBXFileReference;
+			name = "ui_s0moredialog.h";
+			path = "ui_s0moredialog.h";
+			refType = 4;
+		};
+		8562E1137372A314A6DA784E = {
+			isa = PBXFileReference;
+			name = "ui_s1moredialog.h";
+			path = "ui_s1moredialog.h";
+			refType = 4;
+		};
+		2DC813645226A8B936421501 = {
+			isa = PBXFileReference;
+			name = "ui_s2advdialog.h";
+			path = "ui_s2advdialog.h";
+			refType = 4;
+		};
+		9623D421C00910BC061D5C31 = {
+			isa = PBXFileReference;
+			name = "ui_s2clanfielddialog.h";
+			path = "ui_s2clanfielddialog.h";
+			refType = 4;
+		};
+		D3081FC1DC0FAD9553B15BFA = {
+			isa = PBXFileReference;
+			name = "ui_s2flexxpdialog.h";
+			path = "ui_s2flexxpdialog.h";
+			refType = 4;
+		};
+		1D08F5FDE6F157D108ECE837 = {
+			isa = PBXFileReference;
+			name = "ui_s3fielddialog.h";
+			path = "ui_s3fielddialog.h";
+			refType = 4;
+		};
+		EDCBFADDB590FB1C5B633EE3 = {
+			isa = PBXFileReference;
+			name = "ui_s4advdial.h";
+			path = "ui_s4advdial.h";
+			refType = 4;
+		};
+		DA48C0961C886005B2F05A91 = {
+			isa = PBXFileReference;
+			name = "ui_wizard.h";
+			path = "ui_wizard.h";
+			refType = 4;
+		};
+		B6EA83B474E893E1F4D93064 = {
+			isa = PBXFileReference;
+			name = "about.h";
+			path = "about.h";
+			refType = 4;
+		};
+		C7EEACABA46E9B469CFCE918 = {
+			isa = PBXFileReference;
+			name = "aff_combox.h";
+			path = "aff_combox.h";
+			refType = 4;
+		};
+		FF339DCAAE802127847ABB70 = {
+			isa = PBXFileReference;
+			name = "carierfields.h";
+			path = "carierfields.h";
+			refType = 4;
+		};
+		4058CB596B2AB3EDE6202F08 = {
+			isa = PBXFileReference;
+			name = "chardata.h";
+			path = "chardata.h";
+			refType = 4;
+		};
+		3CA9641493C5437E1AFEAC08 = {
+			isa = PBXFileReference;
+			name = "chekver.h";
+			path = "chekver.h";
+			refType = 4;
+		};
+		59EE2735313CE5D1E9A6D2D8 = {
+			isa = PBXFileReference;
+			name = "gmchartools.h";
+			path = "gmchartools.h";
+			refType = 4;
+		};
+		E83AA78438CF4D989032881B = {
+			isa = PBXFileReference;
+			name = "loadresurce.h";
+			path = "loadresurce.h";
+			refType = 4;
+		};
+		C63FA392C61F27B1B13369C1 = {
+			isa = PBXFileReference;
+			name = "mainwindow.h";
+			path = "mainwindow.h";
+			refType = 4;
+		};
+		032C13D6BB5C4F407A8A8D39 = {
+			isa = PBXFileReference;
+			name = "preqdialog.h";
+			path = "preqdialog.h";
+			refType = 4;
+		};
+		B82E945627487E4556DF72AF = {
+			isa = PBXFileReference;
+			name = "s0moredialog.h";
+			path = "s0moredialog.h";
+			refType = 4;
+		};
+		2E72335B1D4A48FC5FBB5C12 = {
+			isa = PBXFileReference;
+			name = "s1moredialog.h";
+			path = "s1moredialog.h";
+			refType = 4;
+		};
+		E38F2B0D2DA61F5EBC955EF2 = {
+			isa = PBXFileReference;
+			name = "s2advdialog.h";
+			path = "s2advdialog.h";
+			refType = 4;
+		};
+		57D527FB0DE1D276221B0E5C = {
+			isa = PBXFileReference;
+			name = "s2clanfielddialog.h";
+			path = "s2clanfielddialog.h";
+			refType = 4;
+		};
+		85B26CD4492482C84CBDA78B = {
+			isa = PBXFileReference;
+			name = "s2flexxpdialog.h";
+			path = "s2flexxpdialog.h";
+			refType = 4;
+		};
+		EFC357CE1CA3E36F7EB85839 = {
+			isa = PBXFileReference;
+			name = "s3fielddialog.h";
+			path = "s3fielddialog.h";
+			refType = 4;
+		};
+		5E511AAD49B5693414966C8C = {
+			isa = PBXFileReference;
+			name = "s4advdial.h";
+			path = "s4advdial.h";
+			refType = 4;
+		};
+		4D0032A2DC0C6DD2EB967AC0 = {
+			isa = PBXFileReference;
+			name = "spinbox.h";
+			path = "spinbox.h";
+			refType = 4;
+		};
+		6F0E614CAF9170352A32272C = {
+			isa = PBXFileReference;
+			name = "stage1_resurce.h";
+			path = "stage1_resurce.h";
+			refType = 4;
+		};
+		A4C84DB4E515C7E3A2739C18 = {
+			isa = PBXFileReference;
+			name = "stage2_resurce.h";
+			path = "stage2_resurce.h";
+			refType = 4;
+		};
+		8EEB327EEA039ABCB28C61B0 = {
+			isa = PBXFileReference;
+			name = "stage3_resurce.h";
+			path = "stage3_resurce.h";
+			refType = 4;
+		};
+		A3FF37475A91BFAF6DE5742D = {
+			isa = PBXFileReference;
+			name = "stage4_resurce.h";
+			path = "stage4_resurce.h";
+			refType = 4;
+		};
+		7FFA8206BDEF404F89AD48A5 = {
+			isa = PBXFileReference;
+			name = "text_resurce.h";
+			path = "text_resurce.h";
+			refType = 4;
+		};
+		3011B111394075ED23740D96 = {
+			isa = PBXFileReference;
+			name = "ui_npccreator.h";
+			path = "ui_npccreator.h";
+			refType = 4;
+		};
+		C5F2999F027A9FE61C5F32B4 = {
+			isa = PBXFileReference;
+			name = "wizard.h";
+			path = "wizard.h";
+			refType = 4;
+		};
+		DF3C23A807F2C3B317957CA7 = {
+			isa = PBXFileReference;
+			name = "btnchrcreator.pro";
+			path = "btnchrcreator.pro";
+			refType = 4;
+		};
+		8C1E61D5E61AEDD8F82FD60E = {
+			isa = PBXFileReference;
+			name = "resurce_btnchrcr.qrc";
+			path = "resurce_btnchrcr.qrc";
+			refType = 4;
+		};
+		BB2B8624C733191C5D853CCA = {
+			fileRef = "8C1E61D5E61AEDD8F82FD60E";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		8247A7C40FEBAA3DD4E7E744 = {
+			isa = PBXFileReference;
+			name = "about.ui";
+			path = "about.ui";
+			refType = 4;
+		};
+		F7310ABA0D8A3A175571CEDE = {
+			fileRef = "8247A7C40FEBAA3DD4E7E744";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		93EAB019EAA3472EAB282DD9 = {
+			isa = PBXFileReference;
+			name = "gmchartools.ui";
+			path = "gmchartools.ui";
+			refType = 4;
+		};
+		8BAB9AC48976B7BD08C7D38F = {
+			fileRef = "93EAB019EAA3472EAB282DD9";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		AB241F823D3821A41AAC4BDE = {
+			isa = PBXFileReference;
+			name = "mainwindow.ui";
+			path = "mainwindow.ui";
+			refType = 4;
+		};
+		A5DB83BD78FE4205FDAD3FC5 = {
+			fileRef = "AB241F823D3821A41AAC4BDE";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C66A5FBE0DE6DBC3EEA40A35 = {
+			isa = PBXFileReference;
+			name = "preqdialog.ui";
+			path = "preqdialog.ui";
+			refType = 4;
+		};
+		B767775C4365AD2F1E6E87A3 = {
+			fileRef = "C66A5FBE0DE6DBC3EEA40A35";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		8F4043DF35209A07BE77607D = {
+			isa = PBXFileReference;
+			name = "s0moredialog.ui";
+			path = "s0moredialog.ui";
+			refType = 4;
+		};
+		25206E7D2E9F7430FD104F84 = {
+			fileRef = "8F4043DF35209A07BE77607D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		AAEB55EE4ACBAF8353E00F13 = {
+			isa = PBXFileReference;
+			name = "s1moredialog.ui";
+			path = "s1moredialog.ui";
+			refType = 4;
+		};
+		1E7B5D6DD931471AC85E6AA1 = {
+			fileRef = "AAEB55EE4ACBAF8353E00F13";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		9620CD419D09889C5B10562E = {
+			isa = PBXFileReference;
+			name = "s2advdialog.ui";
+			path = "s2advdialog.ui";
+			refType = 4;
+		};
+		CF995040E1FABAEDF2DDEC8F = {
+			fileRef = "9620CD419D09889C5B10562E";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		18E979D0B788819784881129 = {
+			isa = PBXFileReference;
+			name = "s2clanfielddialog.ui";
+			path = "s2clanfielddialog.ui";
+			refType = 4;
+		};
+		FC6708FBACA7F7BEA2884B41 = {
+			fileRef = "18E979D0B788819784881129";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		5AF7DB9AB5FCCCE8289C7B54 = {
+			isa = PBXFileReference;
+			name = "s2flexxpdialog.ui";
+			path = "s2flexxpdialog.ui";
+			refType = 4;
+		};
+		5D1A1C0BEDE10C52A47B1431 = {
+			fileRef = "5AF7DB9AB5FCCCE8289C7B54";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		BCF8A342405FB56C88FCE487 = {
+			isa = PBXFileReference;
+			name = "s3fielddialog.ui";
+			path = "s3fielddialog.ui";
+			refType = 4;
+		};
+		7ADA083DB91D72AD8EA8E13B = {
+			fileRef = "BCF8A342405FB56C88FCE487";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		45D8368C42EAFE0AD3046F38 = {
+			isa = PBXFileReference;
+			name = "s4advdial.ui";
+			path = "s4advdial.ui";
+			refType = 4;
+		};
+		916165FA7D8DFCEE695F47DD = {
+			fileRef = "45D8368C42EAFE0AD3046F38";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		D7485F056BF70BA3DC3BFE89 = {
+			isa = PBXFileReference;
+			name = "wizard.ui";
+			path = "wizard.ui";
+			refType = 4;
+		};
+		F746C5321DD6A66B9A91A269 = {
+			fileRef = "D7485F056BF70BA3DC3BFE89";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		883D7615C4D2DE3FA1218F12 = {
+			isa = PBXGroup;
+			children = (
+				"B6EA83B474E893E1F4D93064",
+				"C7EEACABA46E9B469CFCE918",
+				"FF339DCAAE802127847ABB70",
+				"4058CB596B2AB3EDE6202F08",
+				"3CA9641493C5437E1AFEAC08",
+				"59EE2735313CE5D1E9A6D2D8",
+				"E83AA78438CF4D989032881B",
+				"C63FA392C61F27B1B13369C1",
+				"032C13D6BB5C4F407A8A8D39",
+				"B82E945627487E4556DF72AF",
+				"2E72335B1D4A48FC5FBB5C12",
+				"E38F2B0D2DA61F5EBC955EF2",
+				"57D527FB0DE1D276221B0E5C",
+				"85B26CD4492482C84CBDA78B",
+				"EFC357CE1CA3E36F7EB85839",
+				"5E511AAD49B5693414966C8C",
+				"4D0032A2DC0C6DD2EB967AC0",
+				"6F0E614CAF9170352A32272C",
+				"A4C84DB4E515C7E3A2739C18",
+				"8EEB327EEA039ABCB28C61B0",
+				"A3FF37475A91BFAF6DE5742D",
+				"7FFA8206BDEF404F89AD48A5",
+				"3011B111394075ED23740D96",
+				"C5F2999F027A9FE61C5F32B4");
+			name = "Headers";
+			refType = 4;
+		};
+		FB61758D0F0FDA4BA867C3D5 = {
+			isa = PBXGroup;
+			children = (
+				"0BA95E1E2D6CDCF24FCCAD32",
+				"719CBB4D4128AAAA0C64474B",
+				"72A3DC181DE3C87F386373A1",
+				"34FE677DA4EC1AF22927127B",
+				"85546F46FD525F759608A5C8",
+				"81EB993981F49DF123FDCC41",
+				"E2FCA20578F87D34F1E4E9E0",
+				"118FCBAABA162BA17933C789",
+				"EA177DE95BF7D3EF58EE43F7",
+				"D4A6B427DFFC040405553C58",
+				"99DF13005F65D271553AC201",
+				"486E0B90B5DAA9EE16B91640",
+				"C3BB0B4545B53F64C51D1686",
+				"E38FF7845C485C524A8EE328",
+				"E24734CB90186EC5F2A56DDB",
+				"0CB826D22FFFAEA9B9AF6D5D",
+				"74A03A3392B796A936872D68",
+				"61924C71508DB5EF6E6E5F5D",
+				"9D49283323386B577CA7BED8",
+				"A7BCA443829DDA2868141EFC",
+				"15C0FBC7598EA3D5ECA4BDF4",
+				"AC46E1B036269B6515EB3AB0",
+				"4BA1536230EF579367E0B1B2",
+				"7DE3FC13484B38253B5C4680");
+			name = "Sources";
+			refType = 4;
+		};
+		52C235EBF1C9B07808119459 = {
+			isa = PBXGroup;
+			children = (
+				"8C1E61D5E61AEDD8F82FD60E");
+			name = "Sources [RCC]";
+			refType = 4;
+		};
+		EEC299C65D5017EB9DD513B0 = {
+			isa = PBXGroup;
+			children = (
+				"8247A7C40FEBAA3DD4E7E744",
+				"93EAB019EAA3472EAB282DD9",
+				"AB241F823D3821A41AAC4BDE",
+				"C66A5FBE0DE6DBC3EEA40A35",
+				"8F4043DF35209A07BE77607D",
+				"AAEB55EE4ACBAF8353E00F13",
+				"9620CD419D09889C5B10562E",
+				"18E979D0B788819784881129",
+				"5AF7DB9AB5FCCCE8289C7B54",
+				"BCF8A342405FB56C88FCE487",
+				"45D8368C42EAFE0AD3046F38",
+				"D7485F056BF70BA3DC3BFE89");
+			name = "Sources [UIC]";
+			refType = 4;
+		};
+		7CABE3C80E79AD2B307756D2 = {
+			isa = PBXGroup;
+			children = (
+				"DF3C23A807F2C3B317957CA7");
+			name = "Sources [qmake]";
+			refType = 4;
+		};
+		46E892BBB6BB6952967E0561 = {
+			isa = PBXGroup;
+			children = (
+				"B287FF8403470F3FE6A12025",
+				"CA0BC71EAC69C6C664828017",
+				"83FD2F3DD31FB8396E77BDC9",
+				"EFD01086E227A837CAE14FC4",
+				"61C047D43E5DE2E27C53F249",
+				"F47DB8BBBC2BD318B3CB4D2E",
+				"336D3C48DD3B44974395C633",
+				"F356130FABF1A17D59E4CB40",
+				"127BBEEE45B3DD6757290F55",
+				"E19B05B2A2E093D8A8837CFE",
+				"ACB791C9C7FE262D4D6F122B",
+				"607C42F7AE7AF17CD2AA1544",
+				"1A085619E42E866426C957B1",
+				"68BFCDCCF846A6B23A1F38E3",
+				"7B1B2140B539F537EFDF726C",
+				"095E8FA5FFBE4E4F120B526F",
+				"C374145DFFA61D42A59B7C02",
+				"D6629BB08C09D823B99B69EC",
+				"6CF4366A5739B163412F6758",
+				"CC57C92645A4B38CBBF0A1B5",
+				"DF4588B89164D4B96FF29CA9",
+				"6930364E6B4FBD2C7EA9A6D9",
+				"789921218F2EB16216C7696C",
+				"3BC338EB54B5D323151DEF99",
+				"9FDF3C675EC7975DB4D3760D",
+				"AFB98B37FF0012B837A2131C",
+				"A23DA05D0ABEF9AD010045CD",
+				"832C276FD310B2F9A3484F62",
+				"8562E1137372A314A6DA784E",
+				"2DC813645226A8B936421501",
+				"9623D421C00910BC061D5C31",
+				"D3081FC1DC0FAD9553B15BFA",
+				"1D08F5FDE6F157D108ECE837",
+				"EDCBFADDB590FB1C5B633EE3",
+				"DA48C0961C886005B2F05A91");
+			name = "Temporary Sources";
+			refType = 4;
+		};
+		A0A52A2ADF7A1E2A99738674 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			generatedFileNames = (
+				"C4F403DCEB54B143027F6ECA",
+				"2C43D9A7D2F9AAE41504661C",
+				"241D6C5DF16D41A0BCFCD81F",
+				"1E0FDF9D215DA2757F7A7CB0",
+				"7E88B98DC9BCD945358C1693",
+				"6B93F57F07BB46DE253EDCA1",
+				"4DDD306461B4E176E5D8D591",
+				"2B093CA6F071B023A473CED0",
+				"462C0F34BBEF2375A9469BB5",
+				"D147AF2316E9F60EEBDD504E",
+				"D4C5884F2A65F0ABD8E8EC65",
+				"F927004B44E5F06F06B2B596",
+				"6C74FBDF081B9A354E8B2C19",
+				"CC18A270846E3A4D4A3FC734",
+				"4136E68AC9C4613F4946AF61",
+				"30946802BA966EFDB01E65D5",
+				"37528657E5DADDACC3490668",
+				"4C886E5238E8073A40D2143E",
+				"17268658CDBF8171F02CF1F9",
+				"0829264F941905F5314CEBA0",
+				"BA73F8269B3E5FFF1B28BE1F",
+				"675C398E3982C181802D41D4",
+				"9D13D1DF600DFC84722DFCBA",
+				"E33B542018308FC49A8D9147",
+				"39528B847D889AEC837D9D25",
+				"0F7D99545E128645A4FEB6A1",
+				"01BD0F52D258AF256AE475CA",
+				"A22CD9CE56DB211CEFCA1A86",
+				"101F6E28D626B67E771F4016",
+				"00CEA66EEDAAC4A720AB8DFB",
+				"26C2BED6C570C95F5243C556",
+				"310E594A90615DEB7808D3B2",
+				"EDE8D22F0C105355E6104793",
+				"B75718EDACAD22CF0CD37B1C",
+				"613B0A9999F64FE0DC531976",
+				"E3DFB14CBEAC896806C61656",
+				"AFEE1697E4007A9AE04D4978",
+				"751957F37ED2A4BAC2829109",
+				"595BB7B09A2F61C36445EEE1",
+				"8CDEBB1ABD9EDC9E7F25051A",
+				"39D40F04760F97576421A46F",
+				"DEA8A96FA49F31E7F426D47F",
+				"519A457E47490579B2FF46C1",
+				"4634E76CD1124AFDA388C272",
+				"DF03289AA74F02045362A59D",
+				"764973E6C3419D14DA845360",
+				"08DF0BC33494FCF2ECDFF5FE");
+			isa = PBXShellScriptBuildPhase;
+			name = "Qt Preprocessors";
+			neededFileNames = (
+				"C4F403DCEB54B143027F6ECA",
+				"2C43D9A7D2F9AAE41504661C",
+				"241D6C5DF16D41A0BCFCD81F",
+				"1E0FDF9D215DA2757F7A7CB0",
+				"7E88B98DC9BCD945358C1693",
+				"6B93F57F07BB46DE253EDCA1",
+				"4DDD306461B4E176E5D8D591",
+				"2B093CA6F071B023A473CED0",
+				"462C0F34BBEF2375A9469BB5",
+				"D147AF2316E9F60EEBDD504E",
+				"D4C5884F2A65F0ABD8E8EC65",
+				"F927004B44E5F06F06B2B596",
+				"6C74FBDF081B9A354E8B2C19",
+				"CC18A270846E3A4D4A3FC734",
+				"4136E68AC9C4613F4946AF61",
+				"30946802BA966EFDB01E65D5",
+				"37528657E5DADDACC3490668",
+				"4C886E5238E8073A40D2143E",
+				"17268658CDBF8171F02CF1F9",
+				"0829264F941905F5314CEBA0",
+				"BA73F8269B3E5FFF1B28BE1F",
+				"675C398E3982C181802D41D4",
+				"9D13D1DF600DFC84722DFCBA",
+				"E33B542018308FC49A8D9147",
+				"39528B847D889AEC837D9D25",
+				"0F7D99545E128645A4FEB6A1",
+				"01BD0F52D258AF256AE475CA",
+				"A22CD9CE56DB211CEFCA1A86",
+				"101F6E28D626B67E771F4016",
+				"00CEA66EEDAAC4A720AB8DFB",
+				"26C2BED6C570C95F5243C556",
+				"310E594A90615DEB7808D3B2",
+				"EDE8D22F0C105355E6104793",
+				"B75718EDACAD22CF0CD37B1C",
+				"613B0A9999F64FE0DC531976",
+				"E3DFB14CBEAC896806C61656",
+				"AFEE1697E4007A9AE04D4978",
+				"751957F37ED2A4BAC2829109",
+				"595BB7B09A2F61C36445EEE1",
+				"8CDEBB1ABD9EDC9E7F25051A",
+				"39D40F04760F97576421A46F",
+				"DEA8A96FA49F31E7F426D47F",
+				"519A457E47490579B2FF46C1",
+				"4634E76CD1124AFDA388C272",
+				"DF03289AA74F02045362A59D",
+				"764973E6C3419D14DA845360",
+				"08DF0BC33494FCF2ECDFF5FE");
+			shellPath = "/bin/sh";
+			shellScript = "make\ -C\ /Volumes/NO\ NAME/btnchrcreator\ -f\ \'btnchrcreator.pbproj/qt_preprocess.mak\'";
+		};
+		C29B8785722055ED95EF7B57 = {
+			buildActionMask = 2147483647;
+			files = (
+				"C4F403DCEB54B143027F6ECA",
+				"2C43D9A7D2F9AAE41504661C",
+				"241D6C5DF16D41A0BCFCD81F",
+				"1E0FDF9D215DA2757F7A7CB0",
+				"7E88B98DC9BCD945358C1693",
+				"6B93F57F07BB46DE253EDCA1",
+				"4DDD306461B4E176E5D8D591",
+				"2B093CA6F071B023A473CED0",
+				"462C0F34BBEF2375A9469BB5",
+				"D147AF2316E9F60EEBDD504E",
+				"D4C5884F2A65F0ABD8E8EC65",
+				"F927004B44E5F06F06B2B596",
+				"6C74FBDF081B9A354E8B2C19",
+				"CC18A270846E3A4D4A3FC734",
+				"4136E68AC9C4613F4946AF61",
+				"30946802BA966EFDB01E65D5",
+				"37528657E5DADDACC3490668",
+				"4C886E5238E8073A40D2143E",
+				"17268658CDBF8171F02CF1F9",
+				"0829264F941905F5314CEBA0",
+				"BA73F8269B3E5FFF1B28BE1F",
+				"675C398E3982C181802D41D4",
+				"9D13D1DF600DFC84722DFCBA",
+				"E33B542018308FC49A8D9147",
+				"39528B847D889AEC837D9D25",
+				"0F7D99545E128645A4FEB6A1",
+				"01BD0F52D258AF256AE475CA",
+				"A22CD9CE56DB211CEFCA1A86",
+				"101F6E28D626B67E771F4016",
+				"00CEA66EEDAAC4A720AB8DFB",
+				"26C2BED6C570C95F5243C556",
+				"310E594A90615DEB7808D3B2",
+				"EDE8D22F0C105355E6104793",
+				"B75718EDACAD22CF0CD37B1C",
+				"613B0A9999F64FE0DC531976",
+				"E3DFB14CBEAC896806C61656",
+				"AFEE1697E4007A9AE04D4978",
+				"751957F37ED2A4BAC2829109",
+				"595BB7B09A2F61C36445EEE1",
+				"8CDEBB1ABD9EDC9E7F25051A",
+				"39D40F04760F97576421A46F",
+				"DEA8A96FA49F31E7F426D47F",
+				"519A457E47490579B2FF46C1",
+				"4634E76CD1124AFDA388C272",
+				"DF03289AA74F02045362A59D",
+				"764973E6C3419D14DA845360",
+				"08DF0BC33494FCF2ECDFF5FE");
+			isa = PBXSourcesBuildPhase;
+			name = "Build Sources";
+		};
+		9B36DA7E32F0304E780E7972 = {
+			isa = PBXFrameworkReference;
+			name = "QtGui.framework";
+			path = "/Library/Frameworks/QtGui.framework";
+			refType = 0;
+		};
+		501667F26B3C1FF6767A7C12 = {
+			fileRef = "9B36DA7E32F0304E780E7972";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7BC2E65A5E699A5E5D834CA2 = {
+			isa = PBXFrameworkReference;
+			name = "QtCore.framework";
+			path = "/Library/Frameworks/QtCore.framework";
+			refType = 0;
+		};
+		069D05B0128AE5DC7EE31738 = {
+			fileRef = "7BC2E65A5E699A5E5D834CA2";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ED1E82605DD74B483AF3C982 = {
+			children = (
+				"9B36DA7E32F0304E780E7972",
+				"7BC2E65A5E699A5E5D834CA2");
+			isa = PBXGroup;
+			name = "External Frameworks and Libraries";
+			path = "";
+			refType = 4;
+		};
+		2A1043669E6E5A7426EA502A = {
+			buildActionMask = 2147483647;
+			files = (
+				"501667F26B3C1FF6767A7C12",
+				"069D05B0128AE5DC7EE31738");
+			isa = PBXFrameworksBuildPhase;
+			name = "Frameworks & Libraries";
+		};
+		3787F99312C85FF0073FD7BA = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXResourcesBuildPhase;
+			name = "Bundle Resources";
+		};
+		F6069D5A5DA8AA28EDB8B3C6 = {
+			name = "Project Copy";
+			buildActionMask = 2147483647;
+			dstPath = "/Volumes/NO/ NAME/btnchrcreator";
+			dstSubfolderSpec = 0;
+			files = (
+"07E0DFA73EB56DCB9E28CDD9");
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07E0DFA73EB56DCB9E28CDD9 = {
+			fileRef = "1E1F5D11FCFB9D227400FC9A";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		05596AB53D8D521C69802C27 = {
+			children = (
+				"FB61758D0F0FDA4BA867C3D5",
+				"46E892BBB6BB6952967E0561",
+				"883D7615C4D2DE3FA1218F12",
+				"7CABE3C80E79AD2B307756D2",
+				"52C235EBF1C9B07808119459",
+				"EEC299C65D5017EB9DD513B0",
+				"ED1E82605DD74B483AF3C982");
+			isa = PBXGroup;
+			name = "btnchrcreator";
+			path = "";
+			refType = 4;
+		};
+		1E1F5D11FCFB9D227400FC9A = {
+			isa = PBXFileReference;
+			explicitFileType = "wrapper.application";
+			path = "btnchrcreator.app";
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		068F80C7519D0528FB08E821 = {
+			children = (
+				"1E1F5D11FCFB9D227400FC9A");
+			isa = PBXGroup;
+			name = "Products";
+			refType = 4;
+		};
+		027E255EDBB8B4E2746D8B71 = {
+			buildPhases = (
+				"D7BA7D76DAB5DD13389D6332",
+				"A0A52A2ADF7A1E2A99738674",
+				"F6069D5A5DA8AA28EDB8B3C6",
+				"C29B8785722055ED95EF7B57",
+				"2A1043669E6E5A7426EA502A",
+				"3787F99312C85FF0073FD7BA");
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"/Library/Frameworks/QtCore.framework/Versions/4/Headers",
+					"/usr/include/QtCore",
+					"/Library/Frameworks/QtGui.framework/Versions/4/Headers",
+					"/usr/include/QtGui",
+					"/usr/include",
+					".",
+					".",
+					".",
+					"/usr/local/include",
+					"/System/Library/Frameworks/CarbonCore.framework/Headers",
+					"/usr/local/Qt4.7/mkspecs/macx-xcode");
+				LIBRARY_SEARCH_PATHS = (
+					"/Library/Frameworks",
+					"/tmp/qt-stuff-6474/source/qt-everywhere-opensource-src-4.7.0/lib");
+				OPTIMIZATION_CFLAGS = (
+					);
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED");
+				LEXFLAGS = "";
+				YACCFLAGS = "-d";
+				OTHER_REZFLAGS = "";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "";
+				PREBINDING = NO;
+				INFOPLIST_FILE = "Info.plist";
+				BUILD_ROOT = "/Volumes/NO NAME/btnchrcreator";
+				OTHER_LDFLAGS = (
+						"-headerpad_max_install_names",
+						"-L/Library/Frameworks",
+						"-F/Library/Frameworks",
+						"-L/tmp/qt-stuff-6474/source/qt-everywhere-opensource-src-4.7.0/lib",
+						"-F/tmp/qt-stuff-6474/source/qt-everywhere-opensource-src-4.7.0/lib");
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				MACOSX_DEPLOYMENT_TARGET = "10.4";
+				WRAPPER_SUFFIX = "app";
+				PRODUCT_NAME = "btnchrcreator";
+			};
+			conditionalBuildSettings = {
+			};
+			dependencies = (
+				);
+			productReference = "1E1F5D11FCFB9D227400FC9A";
+			shouldUseHeadermap = 1;
+			isa = PBXApplicationTarget;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist SYSTEM \"file://localhost/System/Library/DTDs/PropertyList.dtd\">
+<plist version=\"0.9\">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+    <key>CFBundleGetInfoString</key>
+	<string>Created by Qt/QMake</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleExecutable</key>
+	<string>btnchrcreator</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.yourcompany.btnchrcreator</string>
+	<key>NOTE</key>
+	<string>This file was generated by Qt/QMake.</string>
+</dict>
+</plist>
+";
+			name = "btnchrcreator";
+			productName = "btnchrcreator";
+			startupPath = "<<ProjectDirectory>>";
+		};
+		8D0921A599A626D1569D9498 = {
+			buildRules = (
+				);
+			buildSettings = {
+				COPY_PHASE_STRIP = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+			};
+			isa = "PBXBuildStyle";
+			name = "Development";
+		};
+		4CFAD8B741C7FF5A47E1CF98 = {
+			buildRules = (
+				);
+			buildSettings = {
+				COPY_PHASE_STRIP = "YES";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+			};
+			isa = "PBXBuildStyle";
+			name = "Deployment";
+		};
+		91B15E841AA80083484172DE = {
+			buildStyles = (
+				"8D0921A599A626D1569D9498");
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = "05596AB53D8D521C69802C27";
+			projectDirPath = "";
+			targets = (
+				"027E255EDBB8B4E2746D8B71");
+		};
+	};
+	rootObject = "91B15E841AA80083484172DE";
+}

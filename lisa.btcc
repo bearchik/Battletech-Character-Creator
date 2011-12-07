@@ -1,0 +1,80 @@
+name:Lisa
+aff:Federated Suns
+subaff:Crucis March
+clancaste:For Clans Only
+earlychild:Blue Collar
+latechild:Military School
+schoolname:Military Academy
+basicschool:Basic Training
+advschool:MechWarrior
+specschool:
+reallife:Tour Of Duty
+phenotype:Phenotype/Normal Human
+nameplanet:
+sex:Female
+age:21
+haircolor:Red
+eyecolor:Green
+height:168
+weight:47
+gmxpmod:-30
+cbillmod:0
+attr:BOD=250
+attr:CHA=140
+attr:DEX=200
+attr:EDG=110
+attr:INT=135
+attr:RFL=235
+attr:STR=195
+attr:WIL=240
+skill:Art/Painting=20
+skill:Career/Pilot=-30
+skill:Career/Soldier=115
+skill:Computers=35
+skill:Gunnery/`Mech=80
+skill:Interests/Military History=55
+skill:Interests/Battlemechs=35
+skill:Interests/FedSuns History=30
+skill:Language/English=25
+skill:Language/French=40
+skill:Leadership=45
+skill:Martial Arts=110
+skill:MedTech=60
+skill:Melee Weapons=20
+skill:Navigation/Ground=70
+skill:Perception=50
+skill:Piloting/`Mech=80
+skill:Protocol/FedSuns=110
+skill:Running=30
+skill:Sensor Operations=55
+skill:Small Arms=80
+skill:Strategy=10
+skill:Swimming=45
+skill:Tactics/Land=55
+skill:Technician/Weapons=55
+trait:Connections=40
+trait:Equipped=100
+trait:Fit=15
+trait:Natural Aptitude/Strategy=100
+trait:Rank=270
+trait:Unlucky=-50
+trait:Vehicle=350
+preattr:DEX=400
+preattr:INT=400
+preattr:RFL=400
+preattr:WIL=300
+<notes>
+-----Wizard Data-----
+Affilation: Federated Suns
+SubAffilation: Crucis March
+Cast: For Clans Only
+Early Childhood: Blue Collar
+Late Childhood: Military School
+School: Military Academy
+Basic school: Basic Training
+Advanced school: MechWarrior
+Special school: 
+Real Life: Tour Of Duty
+
+Character created by Bearchik from "The Time of War" rules book.
+</notes>

@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>ico1.ico</file>
+        <file>resurce/pilot6.png</file>
+        <file>back_page_sheet_pic.png</file>
+        <file>top_page_sheet_pic.png</file>
+        <file>man.png</file>
+        <file>additional_page_sheet_pic.png</file>
+        <file>table_actions.png</file>
+        <file>table_combat.png</file>
+        <file>table_damage.png</file>
+        <file>table_movemet.png</file>
+    </qresource>
+    <qresource prefix="/logo">
+        <file>resurce/Capellan_Confederation_Logo_New.png</file>
+        <file>resurce/Federated_Suns_Logo.png</file>
+        <file>resurce/Lyran_Alliance_Logo.png</file>
+        <file>resurce/MINOR_PERIPHERY.PNG</file>
+        <file>resurce/Free Worlds League.png</file>
+        <file>resurce/Free_Rasalhague_Republic.png</file>
+        <file>resurce/Clan_Jade_Falcon.png</file>
+        <file>resurce/Clan_Ice_Hellion.png</file>
+        <file>resurce/ClanWolf.png</file>
+        <file>resurce/Draccombine.png</file>
+        <file>resurce/ComStar.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,77 @@
+#Archaic Melee - archmelee.
+archmelee;Melee Weapons;Axe;3M/2;1;25;4;0;0;0;-2 to attack roll
+archmelee;Melee Weapons;Blackjack/Sap;0M/3D;1;5;0.2;0;0;0;-2 to attack roll
+archmelee;Melee Weapons;Bokken;0M/2;1;15;2;0;0;0;+1 to attack roll
+archmelee;Melee Weapons;Club or Improvised ;1M/1;1;0;2;0;0;0;None
+archmelee;Melee Weapons;Dao;1M/2;1;200;3;0;0;0;+1 to attack roll
+archmelee;Melee Weapons;Fingernails, Carbon-Fiber Reinforced;1M/1;1;1000;0;0;0;0;no effect vs BAR 3+
+archmelee;Melee Weapons;Hatchet/Tomahawk;2M/1;1;10;1;0;0;0;-2 to attack roll
+archmelee;Melee Weapons;Katana;2M/2;1;250;2.5;0;0;0;+1 to attack roll
+archmelee;Melee Weapons;Knife/Dagger/Bayonet;1M/1;1;8;0.25;0;0;0;None
+archmelee;Melee Weapons;No-Dachi;1M/3;1;300;4.5;0;0;0;None
+archmelee;Melee Weapons;Nunchaku;1M/1;1;10;1.5;0;0;0;Opponent -2 to Def Roll
+archmelee;Melee Weapons;Pole Arm;1M/2;2;50;6;0;0;0;None
+archmelee;Melee Weapons;Scimitar;2M/2;1;250;2.5;0;0;0;+1 to attack roll
+archmelee;Melee Weapons;Staff;0M/2;1;5;2.5;0;0;0;None
+archmelee;Melee Weapons;Sword;2M/2;1;30;3;0;0;0;None
+archmelee;Melee Weapons;Wakizashi;1M/1;1;150;1;0;0;0;+1 to attack roll
+# Archaic Range - archrange 
+archrange;Archery;Short bow;2B/1;8/20/50/100;10;0.8;1;1;0.06;Simple action for reload
+archrange;Archery;Long bow;2B/2;10/30/80/175;20;1.5;1;2;0.07;Simple action for reload
+archrange;Archery;Compound bow;2B/2;10/25/70/160;15;1;1;2;0.07;Simple action for reload, +1 to attack roll
+archrange;Archery;Hankyu;2B/1;8/20/55/110;15;0.8;1;1;0.06;Simple action for reload
+archrange;Archery;Daikyu;2B/2;10/25/60/125;30;1;1;2;0.07;Simple action for reload
+archrange;Archery;Cross Bow, Basic;3B/2;5/16/30/70;10;2;1;1;0.05;Simple action for reload
+archrange;Archery;Cross Bow, Heavy;3B/3;5/20/40/100;10;4;1;1;0.06;Simple action for reload
+archrange;Thrown Weapons;Dart;1M/1;STR+DEX;3;0.01;0;0;0;+1 to HIT, Half Thrown weapon range(RD)
+archrange;Thrown Weapons;Shutiken;2M/1;STR+DEX;5;0.1;0;0;0;Extreme range = 6x short
+archrange;Thrown Weapons;Knife/Throwing;2M/1;STR+DEX;8;0.250;0;0;0;None
+archmelee;Thrown Weapons;Hatchet/Tomahawk;3M/1;STR+DEX;10;1;0;0;0;None
+archmelee;Thrown Weapons;Spear;2M/2;STR+DEX;15;5;0;0;0;DoubleThrown weapon range
+# Modern Melee - modermelee 
+modermelee;Melee Weapons;Medusa Whip;0E/1D;3;2200;0.45;1 PPS;5;0.25;p.264
+modermelee;Melee Weapons;Mini Stunstick;0E/3D;1;50;0.150;1 PPS;5;0.25;p.264
+# Balistic - balistic 
+balistic;Small Arms;Auto-Pistol;3B/4;5/20/45/105;50;0.5;10;2;0.14;Jam on Fumble
+ 
+ 
+# Energy - energy 
+ 
+ 
+# Flechette - flechet 
+ 
+ 
+# Gauss - gaus 
+ 
+ 
+# Gyrojet - gyrojet 
+ 
+ 
+# Miscellaneous Ranged - miscrange 
+ 
+ 
+# Machine Gun - arnigun 
+ 
+ 
+# Grenade Launchers & Mortars - grenlaunch 
+ 
+ 
+# Missile Launchers - misslaunch 
+ 
+ 
+# Recoilless Rifles - recrifle 
+ 
+ 
+# Support Energy - supenergy 
+ 
+ 
+# Support Gauss - supgauss 
+ 
+ 
+# Standart Explosives - stdexpl 
+ 
+ 
+# Demolutions - bigbadaboom 
+ 
+ 
+# Weapons Accessories - weaponaccess 

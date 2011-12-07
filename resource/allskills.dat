@@ -1,0 +1,92 @@
+Acrobatics/Free-Fall;RFL,7/SB
+Acrobatics/Gymnastics;RFL,7/SB
+Acting;CHA,8/CB
+Administration;INT+WIL,8/SA
+Animal Handling/Herding;WIL,7/SB
+Animal Handling/Riding;WIL,7/SB
+Animal Handling/Training;WIL,7/SB
+Appraisal;INT,8/CB
+Archery;DEX,7/SB
+Art;DEX,8/CB
+Artillery;INT+WIL,8/SA
+Career;INT,7/SB
+Climbing;DEX,7/SB
+Communications/Black Box;INT,7/SB
+Communications/Conventional EM;INT,7/SB
+Communications/Hyperpulse Generator;INT,7/SB
+Computers;INT,8/CB
+Cryptography;INT+WIL,9/CA
+Demolitions;DEX+INT,9/CA
+Disguise;CHA,7/CB
+Driving/Ground Vehicles;RFL+DEX,8/SA
+Driving/Rail Vehicles;RFL+DEX,8/SA
+Driving/Sea Vehicles;RFL+DEX,8/SA
+Escape Artist;STR+DEX,9/CA
+Forgery;DEX+INT,8/SA
+Gunnery/Aerospace;RFL+DEX,8/SA
+Gunnery/Air Vehicle;RFL+DEX,8/SA
+Gunnery/Battlesuit;RFL+DEX,8/SA
+Gunnery/Ground Vehicle;RFL+DEX,8/SA
+Gunnery/'Mech;RFL+DEX,8/SA
+Gunnery/ProtoMech;RFL+DEX,8/SA
+Gunnery/Sea Vehicle;RFL+DEX,8/SA
+Gunnery/Spacecraft;RFL+DEX,8/SA
+Gunnery/Turret;RFL+DEX,8/SA
+Interests;INT, 8/CB
+Interrogation;WIL+CHA,9/CA
+Investigation;INT+WIL,9/CA
+Language;INT+CHA,8/SA
+Leadership;WIL+CHA,8/SA
+Martial Arts;RFL,7/SB
+MedTech/General;INT,7/SB
+MedTech/Veterinary;INT,7/SB
+Melee Weapons;DEX,7/SB
+Navigation/Air;INT,7/SB
+Navigation/Ground;INT,7/SB
+Navigation/K-F Jump;INT,7/SB
+Navigation/Sea;INT,7/SB
+Navigation/Space;INT,7/SB
+Negotiation;CHA,8/CB
+Perception;INT,7/SB
+Piloting/Aerospace;RFL+DEX,8/SA
+Piloting/Air Vehicle;RFL+DEX,8/SA
+Piloting/Battlesuit;RFL+DEX,8/SA
+Piloting/'Mech;RFL+DEX,8/SA
+Piloting/ProtoMech;RFL+DEX,8/SA
+Piloting/Spacecraft;RFL+DEX,8/SA
+Prestidigitation/Pick Pocket;DEX,7/SB
+Prestidigitation/Quickdraw;DEX,7/SB
+Prestidigitation/Sleight of Hand;DEX,7/SB
+Protocol;WIL+CHA,9/CA
+Running;RFL,7/SB
+Science;INT+WIL,9/CA
+Security Systems/Electronic;DEX+INT,9/CA
+Security Systems/Mechanical;DEX+INT,9/CA
+Sensor Operations;INT+WIL,8/SA
+Small Arms;DEX,7/SB
+Stealth;RFL+INT,8/SA
+Strategy;INT+WIL,9/CA
+Streetwise;CHA,8/CB
+Support Weapons;DEX,7/SB
+Surgery;DEX+INT,9/CA
+Survival;BOD+INT,9/CA
+Swimming;STR,7/SB
+Tactics/Infantry;INT+WIL,9/CA
+Tactics/Land;INT+WIL,9/CA
+Tactics/Sea;INT+WIL,9/CA
+Tactics/Air;INT+WIL,9/CA
+Tactics/Space;INT+WIL,9/CA
+Technician/Aeronautics;DEX+INT,9/CA
+Technician/Cybernetics;DEX+INT,9/CA
+Technician/Electronic;DEX+INT,9/CA
+Technician/Jets;DEX+INT,9/CA
+Technician/Mechanical;DEX+INT,9/CA
+Technician/Myomer;DEX+INT,9/CA
+Technician/Nuclear;DEX+INT,9/CA
+Technician/Weapons;DEX+INT,9/CA
+Thrown Weapons/Blades;DEX,7/SB
+Thrown Weapons/Blunt Weapons;DEX,7/SB
+Tracking/Urban;INT+WIL,8/SA
+Tracking/Wilds;INT+WIL,8/SA
+Training;INT+CHA,9/CA
+Zero-G Operations;RFL,7/SB

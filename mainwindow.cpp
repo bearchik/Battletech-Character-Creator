@@ -6,8 +6,8 @@
 #include <QMessageBox>
 #include <QMultiMap>
 
-#define VERSION "BT Character Creator v.0.8.9"
-#define SHORTVER "0.8.9"
+#define VERSION "BT Character Creator v.0.8.10"
+#define SHORTVER "0.8.10"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),

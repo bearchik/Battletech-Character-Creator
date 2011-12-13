@@ -113,6 +113,8 @@ public:
     QStringList CreateSubSkillList(QString nameSkill);
     QMultiMap<QString, QString> subSkillList;
 
+    QList<QPair<QString, int> > clanFieldSkills;
+
 signals:
 
 public slots:

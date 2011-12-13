@@ -21,6 +21,7 @@ Stage4::Stage4(QWidget *parent) :
     s4repeat = false;
 
     carField = new CarierFields;
+    clanFieldSkills.clear();
 }
 
 QStringList Stage4::CreateSubSkillList(QString nameSkill) {
@@ -2468,10 +2469,15 @@ void Stage4::S4ChooseLife(QString nameElem) {
 
 //            S4AddSkills("+250 total additional XP (+25 XP each assigned to a maximum of ten Skills the character possesses from his Military Fields)",250);
 
-            if (s4BasicSchool.first.isEmpty() != true) {
+            if (s4BasicSchool.first.isEmpty() != true || clanFieldSkills.isEmpty() != true) {
                 s4LabelElem7 = "25XP x 10 skill";
             }
             s4SkillsElem7 << S4FieldSkills(s4BasicSchool.first) << S4FieldSkills(s4AdvSchool.first) << S4FieldSkills(s4SpecSchool.first);
+            if(clanFieldSkills.isEmpty() != true) {
+                for(int i=0; i < clanFieldSkills.count(); i++) {
+                    s4SkillsElem7.append(clanFieldSkills[i].first);
+                }
+            }
             s4SkillsElem7.removeDuplicates();
             s4SkillsElem7.sort();
             s4Elem7 = 25;

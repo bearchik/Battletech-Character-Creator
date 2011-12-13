@@ -4104,6 +4104,9 @@ void Wizard::Stage4Main() {
     stage4->s4SpecSchool = chr_dat->specSchool;
     stage4->s4Phenotype = chr_dat->phenotype;
 
+    stage4->clanFieldSkills.append(s2clanfield->s2CFDClanBasicSkills);
+    stage4->clanFieldSkills.append(s2clanfield->s2CFDClanAdvSkills);
+
 
     stage4->s4Attr = chr_dat->charAttr;
     stage4->s4Skills = chr_dat->charSkills;

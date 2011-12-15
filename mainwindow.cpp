@@ -1576,7 +1576,7 @@ int MainWindow::CheckTraitLvl(QString nameTrait, int number) {
         if ( number > -100 ) {
             lvlValue = 0;
         }
-
+// TEST COMMIT COMMENT
         if ( number <= -100 && number > -200 ) {
             lvlValue= -1;
         }

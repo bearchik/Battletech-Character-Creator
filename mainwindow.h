@@ -57,6 +57,9 @@ public:
     int CheckCBills(int);
     int SumSkillsXP();
     int SumTraitsXP();
+    int scoreStattoStatvalue(int);
+    int StatvaluetoLinkmod(int);
+    double calcMassfromSTRscore(double);
     QStringList CreatAffList(QString);
     QStringList CreatPhenList(QString);
     QStringList CreateList(QString, QStringList);
@@ -93,6 +96,9 @@ public:
 
     int xpMain; //   XP
     int ageMain; //  
+    int Linkmod;
+    int Statvalue;
+    double Skillmultiplier;
     QString charNameMain; //  
     QPair <QString, int> affNameMain; //   
     QPair <QString, int> subAffNameMain; //    
@@ -113,6 +119,7 @@ public:
     int heightMain;
     int weightMain;
     double massChar;
+    double STRscore;
 
     QMap<QString, int> preCharAttrMain; //
     QList<QPair<QString, int> > preCharSkillsMain; //

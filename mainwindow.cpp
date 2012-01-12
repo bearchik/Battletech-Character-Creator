@@ -570,75 +570,130 @@ void MainWindow::on_actionNew_Wizard_triggered()
     connect(wz->button(QWizard::CancelButton), SIGNAL(clicked()), this, SLOT(CancelWizard()));
 }
 
+// Function to calculate the statValue based on the statScore
+int MainWindow::scoreStattoStatvalue(int number) {
+    if (number < 100) {
+                Statvalue = 1;
+                }
+        else {
+            Statvalue = qFloor(number/100);
+            }
+    return Statvalue;
+
+}
+
+// Function to calculate the Linkmod based on the Statvalue
+int MainWindow::StatvaluetoLinkmod(int number) {
+    switch(number) {
+        case 1:
+            Linkmod = -2;
+            break;
+        case 2:
+            Linkmod = -1;
+            break;
+        case 3:
+            Linkmod = -1;
+            break;
+        case 4:
+            default:
+            Linkmod = 0;
+            break;
+        case 5:
+            Linkmod = 0;
+            break;
+        case 6:
+            Linkmod = 0;
+            break;
+        case 7:
+            Linkmod = 1;
+            break;
+        case 8:
+            Linkmod = 1;
+            break;
+        case 9:
+            Linkmod = 1;
+            break;
+        case 10:
+            Linkmod = 2;
+    }
+    return Linkmod;
+
+}
+
+//Function to calc the mass of the character from the STR score
+double MainWindow::calcMassfromSTRscore(double STRscore) {
+    if (STRscore < 100) {
+        massChar = .1;
+        }
+        else {
+            if (STRscore < 200) {
+                massChar = 5.0;
+            }
+            else {
+                if (STRscore < 300) {
+                    massChar = 10.0;
+                    }
+                else {
+                    if (STRscore < 400) {
+                        massChar = 15.0;
+                        }
+                    else {
+                        if (STRscore < 500) {
+                            massChar = 20.0;
+                            }
+                        else {
+                            if (STRscore < 600) {
+                                massChar = 30.0;
+                                }
+                            else {
+                                if (STRscore < 700) {
+                                    massChar = 40.0;
+                                    }
+                                else {
+                                    if (STRscore < 800) {
+                                        massChar = 55.0;
+                                        }
+                                    else {
+                                        if (STRscore < 900) {
+                                            massChar = 70.0;
+                                            }
+                                        else {
+                                            if (STRscore < 1000) {
+                                                massChar = 85.0;
+                                                }
+                                            else {
+                                                if (STRscore == 1000) {
+                                                    massChar = 100.0;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        return massChar;
+}
+
+
+//Simplified Code section below using the three functions created above
+//Greatly reduced number of lines of code with straightforward function calls
 void MainWindow::on_STRSpinBoxMain_valueChanged(int number)
 {
     charAttrMain["STR"] = number;
 
-    if ( number < 100 ) {
+    Statvalue = scoreStattoStatvalue(number);
+    Linkmod = StatvaluetoLinkmod(Statvalue);
+    massChar = calcMassfromSTRscore(number);
+
+    if (number < 100) {
         ui->STRSpinBoxMain->setValue(100);
-        massChar = 0.1;
     }
-
-    if ( number >= 100 && number < 200 ) {
-        ui->ScoreSTRMain->setText("1");
-        ui->LinkSTRMain->setText("-2");
-        massChar = 5.0;
-
-    }
-
-    if ( number >= 200 && number < 300 ) {
-        ui->ScoreSTRMain->setText("2");
-        ui->LinkSTRMain->setText("-1");
-        massChar = 10.0;
-    }
-
-    if ( number >= 300 && number < 400 ) {
-        ui->ScoreSTRMain->setText("3");
-        ui->LinkSTRMain->setText("-1");
-        massChar = 15.0;
-    }
-
-    if ( number >= 400 && number < 500 ) {
-        ui->ScoreSTRMain->setText("4");
-        ui->LinkSTRMain->setText("+0");
-        massChar = 20.0;
-    }
-
-    if ( number >= 500 && number < 600 ) {
-        ui->ScoreSTRMain->setText("5");
-        ui->LinkSTRMain->setText("+0");
-        massChar = 30.0;
-    }
-
-    if ( number >= 600 && number < 700 ) {
-        ui->ScoreSTRMain->setText("6");
-        ui->LinkSTRMain->setText("+0");
-        massChar = 40.0;
-    }
-
-    if ( number >= 700 && number < 800 ) {
-        ui->ScoreSTRMain->setText("7");
-        ui->LinkSTRMain->setText("+1");
-        massChar = 55.0;
-    }
-
-    if ( number >= 800 && number < 900 ) {
-        ui->ScoreSTRMain->setText("8");
-        ui->LinkSTRMain->setText("+1");
-        massChar = 70.0;
-    }
-
-    if ( number >= 900 && number < 1000 ) {
-        ui->ScoreSTRMain->setText("9");
-        ui->LinkSTRMain->setText("+1");
-        massChar = 85.0;
-    }
-
-    if ( number == 1000 ) {
-        ui->ScoreSTRMain->setText("10");
-        ui->LinkSTRMain->setText("+2");
-        massChar = 100.0;
-    }
+    ui->ScoreSTRMain->setText(QString::number(Statvalue));
+    ui->LinkSTRMain->setText(QString::number(Linkmod));
 
     ChangeMain();
 }
@@ -647,427 +702,107 @@ void MainWindow::on_BODSpinBoxMain_valueChanged(int number)
 {
     charAttrMain["BOD"] = number;
 
-    if ( number < 100 ) {
-            ui->BODSpinBoxMain->setValue(100);
-        }
+    Statvalue = scoreStattoStatvalue(number);
+    Linkmod = StatvaluetoLinkmod(Statvalue);
 
-        if ( number >= 100 && number < 200 ) {
-            ui->ScoreBODMain->setText("1");
-            ui->LinkBODMain->setText("-2");
-        }
+    if (number < 100) {
+        ui->BODSpinBoxMain->setValue(100);
+    }
+    ui->ScoreBODMain->setText(QString::number(Statvalue));
+    ui->LinkBODMain->setText(QString::number(Linkmod));
 
-        if ( number >= 200 && number < 300 ) {
-            ui->ScoreBODMain->setText("2");
-            ui->LinkBODMain->setText("-1");
-        }
-
-        if ( number >= 300 && number < 400 ) {
-            ui->ScoreBODMain->setText("3");
-            ui->LinkBODMain->setText("-1");
-        }
-
-        if ( number >= 400 && number < 500 ) {
-            ui->ScoreBODMain->setText("4");
-            ui->LinkBODMain->setText("+0");
-        }
-
-        if ( number >= 500 && number < 600 ) {
-            ui->ScoreBODMain->setText("5");
-            ui->LinkBODMain->setText("+0");
-        }
-
-        if ( number >= 600 && number < 700 ) {
-            ui->ScoreBODMain->setText("6");
-            ui->LinkBODMain->setText("+0");
-        }
-
-        if ( number >= 700 && number < 800 ) {
-            ui->ScoreBODMain->setText("7");
-            ui->LinkBODMain->setText("+1");
-        }
-
-        if ( number >= 800 && number < 900 ) {
-            ui->ScoreBODMain->setText("8");
-            ui->LinkBODMain->setText("+1");
-        }
-
-        if ( number >= 900 && number < 1000 ) {
-            ui->ScoreBODMain->setText("9");
-            ui->LinkBODMain->setText("+1");
-        }
-
-        if ( number == 1000 ) {
-            ui->ScoreBODMain->setText("10");
-            ui->LinkBODMain->setText("+2");
-        }
-
-        ChangeMain();
+    ChangeMain();
 }
 
 void MainWindow::on_RFLSpinBoxMain_valueChanged(int number)
 {
     charAttrMain["RFL"] = number;
 
-    if ( number < 100 ) {
-            ui->RFLSpinBoxMain->setValue(100);
-        }
+    Statvalue = scoreStattoStatvalue(number);
+    Linkmod = StatvaluetoLinkmod(Statvalue);
 
-        if ( number >= 100 && number < 200 ) {
-            ui->ScoreRFLMain->setText("1");
-            ui->LinkRFLMain->setText("-2");
-        }
+    if (number < 100) {
+        ui->RFLSpinBoxMain->setValue(100);
+    }
+    ui->ScoreRFLMain->setText(QString::number(Statvalue));
+    ui->LinkRFLMain->setText(QString::number(Linkmod));
 
-        if ( number >= 200 && number < 300 ) {
-            ui->ScoreRFLMain->setText("2");
-            ui->LinkRFLMain->setText("-1");
-        }
-
-        if ( number >= 300 && number < 400 ) {
-            ui->ScoreRFLMain->setText("3");
-            ui->LinkRFLMain->setText("-1");
-        }
-
-        if ( number >= 400 && number < 500 ) {
-            ui->ScoreRFLMain->setText("4");
-            ui->LinkRFLMain->setText("+0");
-        }
-
-        if ( number >= 500 && number < 600 ) {
-            ui->ScoreRFLMain->setText("5");
-            ui->LinkRFLMain->setText("+0");
-        }
-
-        if ( number >= 600 && number < 700 ) {
-            ui->ScoreRFLMain->setText("6");
-            ui->LinkRFLMain->setText("+0");
-        }
-
-        if ( number >= 700 && number < 800 ) {
-            ui->ScoreRFLMain->setText("7");
-            ui->LinkRFLMain->setText("+1");
-        }
-
-        if ( number >= 800 && number < 900 ) {
-            ui->ScoreRFLMain->setText("8");
-            ui->LinkRFLMain->setText("+1");
-        }
-
-        if ( number >= 900 && number < 1000 ) {
-            ui->ScoreRFLMain->setText("9");
-            ui->LinkRFLMain->setText("+1");
-        }
-
-        if ( number == 1000 ) {
-            ui->ScoreRFLMain->setText("10");
-            ui->LinkRFLMain->setText("+2");
-        }
-
-        ChangeMain();
+    ChangeMain();
 }
 
 void MainWindow::on_DEXSpinBoxMain_valueChanged(int number)
 {
     charAttrMain["DEX"] = number;
 
-    if ( number < 100 ) {
-            ui->DEXSpinBoxMain->setValue(100);
-        }
+    Statvalue = scoreStattoStatvalue(number);
+    Linkmod = StatvaluetoLinkmod(Statvalue);
 
-        if ( number >= 100 && number < 200 ) {
-            ui->ScoreDEXMain->setText("1");
-            ui->LinkDEXMain->setText("-2");
-        }
-
-        if ( number >= 200 && number < 300 ) {
-            ui->ScoreDEXMain->setText("2");
-            ui->LinkDEXMain->setText("-1");
-        }
-
-        if ( number >= 300 && number < 400 ) {
-            ui->ScoreDEXMain->setText("3");
-            ui->LinkDEXMain->setText("-1");
-        }
-
-        if ( number >= 400 && number < 500 ) {
-            ui->ScoreDEXMain->setText("4");
-            ui->LinkDEXMain->setText("+0");
-        }
-
-        if ( number >= 500 && number < 600 ) {
-            ui->ScoreDEXMain->setText("5");
-            ui->LinkDEXMain->setText("+0");
-        }
-
-        if ( number >= 600 && number < 700 ) {
-            ui->ScoreDEXMain->setText("6");
-            ui->LinkDEXMain->setText("+0");
-        }
-
-        if ( number >= 700 && number < 800 ) {
-            ui->ScoreDEXMain->setText("7");
-            ui->LinkDEXMain->setText("+1");
-        }
-
-        if ( number >= 800 && number < 900 ) {
-            ui->ScoreDEXMain->setText("8");
-            ui->LinkDEXMain->setText("+1");
-        }
-
-        if ( number >= 900 && number < 1000 ) {
-            ui->ScoreDEXMain->setText("9");
-            ui->LinkDEXMain->setText("+1");
-        }
-
-        if ( number == 1000 ) {
-            ui->ScoreDEXMain->setText("10");
-            ui->LinkDEXMain->setText("+2");
-        }
-
-        ChangeMain();
+    if (number < 100) {
+        ui->DEXSpinBoxMain->setValue(100);
+    }
+    ui->ScoreDEXMain->setText(QString::number(Statvalue));
+    ui->LinkDEXMain->setText(QString::number(Linkmod));
+    ChangeMain();
 }
 
 void MainWindow::on_INTSpinBoxMain_valueChanged(int number)
 {
     charAttrMain["INT"] = number;
 
-    if ( number < 100 ) {
-            ui->INTSpinBoxMain->setValue(100);
-        }
+    Statvalue = scoreStattoStatvalue(number);
+    Linkmod = StatvaluetoLinkmod(Statvalue);
 
-        if ( number >= 100 && number < 200 ) {
-            ui->ScoreINTMain->setText("1");
-            ui->LinkINTMain->setText("-2");
-        }
-
-        if ( number >= 200 && number < 300 ) {
-            ui->ScoreINTMain->setText("2");
-            ui->LinkINTMain->setText("-1");
-        }
-
-        if ( number >= 300 && number < 400 ) {
-            ui->ScoreINTMain->setText("3");
-            ui->LinkINTMain->setText("-1");
-        }
-
-        if ( number >= 400 && number < 500 ) {
-            ui->ScoreINTMain->setText("4");
-            ui->LinkINTMain->setText("+0");
-        }
-
-        if ( number >= 500 && number < 600 ) {
-            ui->ScoreINTMain->setText("5");
-            ui->LinkINTMain->setText("+0");
-        }
-
-        if ( number >= 600 && number < 700 ) {
-            ui->ScoreINTMain->setText("6");
-            ui->LinkINTMain->setText("+0");
-        }
-
-        if ( number >= 700 && number < 800 ) {
-            ui->ScoreINTMain->setText("7");
-            ui->LinkINTMain->setText("+1");
-        }
-
-        if ( number >= 800 && number < 900 ) {
-            ui->ScoreINTMain->setText("8");
-            ui->LinkINTMain->setText("+1");
-        }
-
-        if ( number >= 900 && number < 1000 ) {
-            ui->ScoreINTMain->setText("9");
-            ui->LinkINTMain->setText("+1");
-        }
-
-        if ( number == 1000 ) {
-            ui->ScoreINTMain->setText("10");
-            ui->LinkINTMain->setText("+2");
-        }
-
-        ChangeMain();
+    if (number < 100) {
+        ui->INTSpinBoxMain->setValue(100);
+    }
+    ui->ScoreINTMain->setText(QString::number(Statvalue));
+    ui->LinkINTMain->setText(QString::number(Linkmod));
+    ChangeMain();
 }
 
 void MainWindow::on_WILSpinBoxMain_valueChanged(int number )
 {
     charAttrMain["WIL"] = number;
 
-    if ( number < 100 ) {
-            ui->WILSpinBoxMain->setValue(100);
-        }
+    Statvalue = scoreStattoStatvalue(number);
+    Linkmod = StatvaluetoLinkmod(Statvalue);
 
-        if ( number >= 100 && number < 200 ) {
-            ui->ScoreWILMain->setText("1");
-            ui->LinkWILMain->setText("-2");
-        }
-
-        if ( number >= 200 && number < 300 ) {
-            ui->ScoreWILMain->setText("2");
-            ui->LinkWILMain->setText("-1");
-        }
-
-        if ( number >= 300 && number < 400 ) {
-            ui->ScoreWILMain->setText("3");
-            ui->LinkWILMain->setText("-1");
-        }
-
-        if ( number >= 400 && number < 500 ) {
-            ui->ScoreWILMain->setText("4");
-            ui->LinkWILMain->setText("+0");
-        }
-
-        if ( number >= 500 && number < 600 ) {
-            ui->ScoreWILMain->setText("5");
-            ui->LinkWILMain->setText("+0");
-        }
-
-        if ( number >= 600 && number < 700 ) {
-            ui->ScoreWILMain->setText("6");
-            ui->LinkWILMain->setText("+0");
-        }
-
-        if ( number >= 700 && number < 800 ) {
-            ui->ScoreWILMain->setText("7");
-            ui->LinkWILMain->setText("+1");
-        }
-
-        if ( number >= 800 && number < 900 ) {
-            ui->ScoreWILMain->setText("8");
-            ui->LinkWILMain->setText("+1");
-        }
-
-        if ( number >= 900 && number < 1000 ) {
-            ui->ScoreWILMain->setText("9");
-            ui->LinkWILMain->setText("+1");
-        }
-
-        if ( number == 1000 ) {
-            ui->ScoreWILMain->setText("10");
-            ui->LinkWILMain->setText("+2");
-        }
-
-        ChangeMain();
+    if (number < 100) {
+        ui->WILSpinBoxMain->setValue(100);
+    }
+    ui->ScoreWILMain->setText(QString::number(Statvalue));
+    ui->LinkWILMain->setText(QString::number(Linkmod));
+    ChangeMain();
 }
 
 void MainWindow::on_CHASpinBoxMain_valueChanged(int number)
 {
     charAttrMain["CHA"] = number;
 
-    if ( number < 100 ) {
-            ui->CHASpinBoxMain->setValue(100);
-        }
+    Statvalue = scoreStattoStatvalue(number);
+    Linkmod = StatvaluetoLinkmod(Statvalue);
 
-        if ( number >= 100 && number < 200 ) {
-            ui->ScoreCHAMain->setText("1");
-            ui->LinkCHAMain->setText("-2");
-        }
-
-        if ( number >= 200 && number < 300 ) {
-            ui->ScoreCHAMain->setText("2");
-            ui->LinkCHAMain->setText("-1");
-        }
-
-        if ( number >= 300 && number < 400 ) {
-            ui->ScoreCHAMain->setText("3");
-            ui->LinkCHAMain->setText("-1");
-        }
-
-        if ( number >= 400 && number < 500 ) {
-            ui->ScoreCHAMain->setText("4");
-            ui->LinkCHAMain->setText("+0");
-        }
-
-        if ( number >= 500 && number < 600 ) {
-            ui->ScoreCHAMain->setText("5");
-            ui->LinkCHAMain->setText("+0");
-        }
-
-        if ( number >= 600 && number < 700 ) {
-            ui->ScoreCHAMain->setText("6");
-            ui->LinkCHAMain->setText("+0");
-        }
-
-        if ( number >= 700 && number < 800 ) {
-            ui->ScoreCHAMain->setText("7");
-            ui->LinkCHAMain->setText("+1");
-        }
-
-        if ( number >= 800 && number < 900 ) {
-            ui->ScoreCHAMain->setText("8");
-            ui->LinkCHAMain->setText("+1");
-        }
-
-        if ( number >= 900 && number < 1000 ) {
-            ui->ScoreCHAMain->setText("9");
-            ui->LinkCHAMain->setText("+1");
-        }
-
-        if ( number == 1000 ) {
-            ui->ScoreCHAMain->setText("10");
-            ui->LinkCHAMain->setText("+2");
-        }
-
-        ChangeMain();
+    if (number < 100) {
+        ui->CHASpinBoxMain->setValue(100);
+    }
+    ui->ScoreCHAMain->setText(QString::number(Statvalue));
+    ui->LinkCHAMain->setText(QString::number(Linkmod));
+    ChangeMain();
 }
 
 void MainWindow::on_EDGSpinBoxMain_valueChanged(int number)
 {
     charAttrMain["EDG"] = number;
 
-    if ( number < 100 ) {
-            ui->EDGSpinBoxMain->setValue(100);
-        }
+    Statvalue = scoreStattoStatvalue(number);
+    Linkmod = StatvaluetoLinkmod(Statvalue);
 
-        if ( number >= 100 && number < 200 ) {
-            ui->ScoreEDGMain->setText("1");
-            ui->LinkEDGMain->setText("-2");
-        }
-
-        if ( number >= 200 && number < 300 ) {
-            ui->ScoreEDGMain->setText("2");
-            ui->LinkEDGMain->setText("-1");
-        }
-
-        if ( number >= 300 && number < 400 ) {
-            ui->ScoreEDGMain->setText("3");
-            ui->LinkEDGMain->setText("-1");
-        }
-
-        if ( number >= 400 && number < 500 ) {
-            ui->ScoreEDGMain->setText("4");
-            ui->LinkEDGMain->setText("+0");
-        }
-
-        if ( number >= 500 && number < 600 ) {
-            ui->ScoreEDGMain->setText("5");
-            ui->LinkEDGMain->setText("+0");
-        }
-
-        if ( number >= 600 && number < 700 ) {
-            ui->ScoreEDGMain->setText("6");
-            ui->LinkEDGMain->setText("+0");
-        }
-
-        if ( number >= 700 && number < 800 ) {
-            ui->ScoreEDGMain->setText("7");
-            ui->LinkEDGMain->setText("+1");
-        }
-
-        if ( number >= 800 && number < 900 ) {
-            ui->ScoreEDGMain->setText("8");
-            ui->LinkEDGMain->setText("+1");
-        }
-
-        if ( number >= 900 && number < 1000 ) {
-            ui->ScoreEDGMain->setText("9");
-            ui->LinkEDGMain->setText("+1");
-        }
-
-        if ( number == 1000 ) {
-            ui->ScoreEDGMain->setText("10");
-            ui->LinkEDGMain->setText("+2");
-        }
-
-        ChangeMain();
+    if (number < 100) {
+        ui->EDGSpinBoxMain->setValue(100);
+    }
+    ui->ScoreEDGMain->setText(QString::number(Statvalue));
+    ui->LinkEDGMain->setText(QString::number(Linkmod));
+    ChangeMain();
 }
 
 void MainWindow::titleRenam(bool chk) {
@@ -1528,95 +1263,97 @@ int MainWindow::CheckTraitLvl(QString nameTrait, int number) {
 
     int lvlValue;
 
-    if (number >= 0) {
-        if ( number < 100 ) {
-            lvlValue = 0;
-        }
+    lvlValue = qFloor(number / 100);
 
-        if ( number >= 100 && number < 200 ) {
-            lvlValue= 1;
-        }
+//    if (number >= 0) {
+//        if ( number < 100 ) {
+//            lvlValue = 0;
+//        }
 
-        if ( number >= 200 && number < 300 ) {
-            lvlValue= 2;
-        }
+//        if ( number >= 100 && number < 200 ) {
+//            lvlValue= 1;
+//        }
 
-        if ( number >= 300 && number < 400 ) {
-            lvlValue= 3;
-        }
+//        if ( number >= 200 && number < 300 ) {
+//            lvlValue= 2;
+//        }
 
-        if ( number >= 400 && number < 500 ) {
-            lvlValue= 4;
-        }
+//        if ( number >= 300 && number < 400 ) {
+//            lvlValue= 3;
+//        }
 
-        if ( number >= 500 && number < 600 ) {
-            lvlValue= 5;
-        }
+//        if ( number >= 400 && number < 500 ) {
+//            lvlValue= 4;
+//        }
 
-        if ( number >= 600 && number < 700 ) {
-            lvlValue= 6;
-        }
+//        if ( number >= 500 && number < 600 ) {
+//            lvlValue= 5;
+//        }
 
-        if ( number >= 700 && number < 800 ) {
-            lvlValue= 7;
-        }
+//        if ( number >= 600 && number < 700 ) {
+//            lvlValue= 6;
+//        }
 
-        if ( number >= 800 && number < 900 ) {
-            lvlValue= 8;
-        }
+//        if ( number >= 700 && number < 800 ) {
+//            lvlValue= 7;
+//        }
 
-        if ( number >= 900 && number < 1000 ) {
-            lvlValue= 9;
-        }
+//        if ( number >= 800 && number < 900 ) {
+//            lvlValue= 8;
+//        }
 
-        if ( number >= 1000 ) {
-            lvlValue= 10;
-        }
-    } else {
-        if ( number > -100 ) {
-            lvlValue = 0;
-        }
-// TEST COMMIT COMMENT
-        if ( number <= -100 && number > -200 ) {
-            lvlValue= -1;
-        }
+//        if ( number >= 900 && number < 1000 ) {
+//            lvlValue= 9;
+//        }
 
-        if ( number <= -200 && number > -300 ) {
-            lvlValue= -2;
-        }
+//        if ( number >= 1000 ) {
+//            lvlValue= 10;
+//        }
+//    } else {
+//        if ( number > -100 ) {
+//            lvlValue = 0;
+//        }
+//// TEST COMMIT COMMENT
+//        if ( number <= -100 && number > -200 ) {
+//            lvlValue= -1;
+//        }
 
-        if ( number <= -300 && number > -400 ) {
-            lvlValue= -3;
-        }
+//        if ( number <= -200 && number > -300 ) {
+//            lvlValue= -2;
+//        }
 
-        if ( number <= -400 && number > -500 ) {
-            lvlValue= -4;
-        }
+//        if ( number <= -300 && number > -400 ) {
+//            lvlValue= -3;
+//        }
 
-        if ( number <= -500 && number > -600 ) {
-            lvlValue= -5;
-        }
+//        if ( number <= -400 && number > -500 ) {
+//            lvlValue= -4;
+//        }
 
-        if ( number <= -600 && number > -700 ) {
-            lvlValue= -6;
-        }
+//        if ( number <= -500 && number > -600 ) {
+//            lvlValue= -5;
+//        }
 
-        if ( number <= -700 && number > -800 ) {
-            lvlValue= -7;
-        }
+//        if ( number <= -600 && number > -700 ) {
+//            lvlValue= -6;
+//        }
 
-        if ( number <= -800 && number > -900 ) {
-            lvlValue= -8;
-        }
+//        if ( number <= -700 && number > -800 ) {
+//            lvlValue= -7;
+//        }
 
-        if ( number <= -900 && number > -1000 ) {
-            lvlValue= -9;
-        }
+//        if ( number <= -800 && number > -900 ) {
+//            lvlValue= -8;
+//        }
 
-        if ( number <= -1000 ) {
-            lvlValue= -10;
-        }
-    }
+//        if ( number <= -900 && number > -1000 ) {
+//            lvlValue= -9;
+//        }
+
+//        if ( number <= -1000 ) {
+//            lvlValue= -10;
+//        }
+//    }
 
     if(nameTrait == "Alternate ID") {
         if(lvlValue < 0) {
@@ -1633,15 +1370,6 @@ int MainWindow::CheckTraitLvl(QString nameTrait, int number) {
         }
         if(lvlValue < -1) {
             lvlValue = -1;
-        }
-    }
-
-    if(nameTrait == "Animal Empathy") {
-        if(lvlValue < 0) {
-            lvlValue = 0;
-        }
-        if(lvlValue > 1) {
-            lvlValue = 1;
         }
     }
 
@@ -2143,190 +1871,48 @@ int MainWindow::CheckSkillLvl(int number) {
         }
     }
 
-    if(chkFastLearn != true && chkSlowLearn !=true) {
-
-        if ( number < 30 ) {
-            lvlValue = 0;
-        }
-
-        if ( number >= 30 && number < 50 ) {
-            lvlValue = 1;
-        }
-
-        if ( number >= 50 && number < 80 ) {
-            lvlValue = 2;
-        }
-
-        if ( number >= 80 && number < 120 ) {
-            lvlValue = 3;
-        }
-
-        if ( number >= 120 && number < 170 ) {
-            lvlValue = 4;
-        }
-
-        if ( number >= 170 && number < 230 ) {
-            lvlValue = 5;
-        }
-
-        if ( number >= 230 && number < 300 ) {
-            lvlValue = 6;
-        }
-
-        if ( number >= 300 && number < 380 ) {
-            lvlValue = 7;
-        }
-
-        if ( number >= 380 && number < 470 ) {
-            lvlValue = 8;
-        }
-
-        if ( number >= 470 && number < 570 ) {
-            lvlValue = 9;
-        }
-
-        if (number >= 570) {
-            lvlValue = 10;
-        }
+    // Skill multiplier used to reduce lines of code.  The qFloor function was used because the float operation
+    // with the int and double was not evaluating correctly.  The qFloor converts the double to an int so the comparison is valid
+    Skillmultiplier = 1;
+    if (chkFastLearn == true) {
+        Skillmultiplier = Skillmultiplier - .2;
+    }
+    if (chkSlowLearn == true) {
+        Skillmultiplier = Skillmultiplier + .2;
     }
 
-    if(chkFastLearn == true && chkSlowLearn ==true) {
-
-        if ( number < 30 ) {
-            lvlValue = 0;
-        }
-
-        if ( number >= 30 && number < 50 ) {
-            lvlValue = 1;
-        }
-
-        if ( number >= 50 && number < 80 ) {
-            lvlValue = 2;
-        }
-
-        if ( number >= 80 && number < 120 ) {
-            lvlValue = 3;
-        }
-
-        if ( number >= 120 && number < 170 ) {
-            lvlValue = 4;
-        }
-
-        if ( number >= 170 && number < 230 ) {
-            lvlValue = 5;
-        }
-
-        if ( number >= 230 && number < 300 ) {
-            lvlValue = 6;
-        }
-
-        if ( number >= 300 && number < 380 ) {
-            lvlValue = 7;
-        }
-
-        if ( number >= 380 && number < 470 ) {
-            lvlValue = 8;
-        }
-
-        if ( number >= 470 && number < 570 ) {
-            lvlValue = 9;
-        }
-
-        if (number >= 570) {
-            lvlValue = 10;
-        }
+    if (number < qFloor(30 * Skillmultiplier)){
+        lvlValue = 0;
     }
-
-    if(chkSlowLearn !=true && chkFastLearn == true) {
-        if ( number < 24 ) {
-            lvlValue = 0;
-        }
-
-        if ( number >= 24 && number < 40 ) {
-            lvlValue = 1;
-        }
-
-        if ( number >= 40 && number < 64 ) {
-            lvlValue = 2;
-        }
-
-        if ( number >= 64 && number < 96 ) {
-            lvlValue = 3;
-        }
-
-        if ( number >= 96 && number < 136 ) {
-            lvlValue = 4;
-        }
-
-        if ( number >= 136 && number < 184 ) {
-            lvlValue = 5;
-        }
-
-        if ( number >= 184 && number < 240 ) {
-            lvlValue = 6;
-        }
-
-        if ( number >= 240 && number < 304 ) {
-            lvlValue = 7;
-        }
-
-        if ( number >= 304 && number < 376 ) {
-            lvlValue = 8;
-        }
-
-        if ( number >= 376 && number < 456 ) {
-            lvlValue = 9;
-        }
-
-        if (number >= 456) {
-            lvlValue = 10;
-        }
+    if (number >= qFloor(30 * Skillmultiplier) && number < qFloor(50 * Skillmultiplier)){
+        lvlValue = 1;
     }
-
-    if(chkSlowLearn ==true && chkFastLearn != true) {
-        if ( number < 36 ) {
-            lvlValue = 0;
-        }
-
-        if ( number >= 36 && number < 60 ) {
-            lvlValue = 1;
-        }
-
-        if ( number >= 60 && number < 96 ) {
-            lvlValue = 2;
-        }
-
-        if ( number >= 96 && number < 144 ) {
-            lvlValue = 3;
-        }
-
-        if ( number >= 144 && number < 204 ) {
-            lvlValue = 4;
-        }
-
-        if ( number >= 204 && number < 276 ) {
-            lvlValue = 5;
-        }
-
-        if ( number >= 276 && number < 360 ) {
-            lvlValue = 6;
-        }
-
-        if ( number >= 360 && number < 456 ) {
-            lvlValue = 7;
-        }
-
-        if ( number >= 456 && number < 564 ) {
-            lvlValue = 8;
-        }
-
-        if ( number >= 564 && number < 684 ) {
-            lvlValue = 9;
-        }
-
-        if (number >= 684) {
-            lvlValue = 10;
-        }
+    if (number >= qFloor(50 * Skillmultiplier) && number < qFloor(80 * Skillmultiplier)){
+        lvlValue = 2;
+    }
+    if (number >= qFloor(80 * Skillmultiplier) && number < qFloor(120 * Skillmultiplier)){
+        lvlValue = 3;
+    }
+    if (number >= qFloor(120 * Skillmultiplier) && number < qFloor(170 * Skillmultiplier)){
+        lvlValue = 4;
+    }
+    if (number >= qFloor(170 * Skillmultiplier) && number < qFloor(230 * Skillmultiplier)){
+        lvlValue = 5;
+    }
+    if (number >= qFloor(230 * Skillmultiplier) && number < qFloor(300 * Skillmultiplier)){
+        lvlValue = 6;
+    }
+    if (number >= qFloor(300 * Skillmultiplier) && number < qFloor(380 * Skillmultiplier)){
+        lvlValue = 7;
+    }
+    if (number >= qFloor(380 * Skillmultiplier) && number < qFloor(470 * Skillmultiplier)){
+        lvlValue = 8;
+    }
+    if (number >= qFloor(470 * Skillmultiplier) && number < qFloor(570 * Skillmultiplier)){
+        lvlValue = 9;
+    }
+    if (number >= qFloor(570 * Skillmultiplier)){
+        lvlValue = 10;
     }
 
     return lvlValue;

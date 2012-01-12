@@ -3532,6 +3532,8 @@ void Wizard::Stage3Main() {
     chr_dat->basicSchool.first.clear();
     chr_dat->advSchool.first.clear();
     chr_dat->specSchool.first.clear();
+    s2advdial->s2AdvDialSkills.clear();
+    s2advdial->s2AdvDialOther.clear();
 
     S3SchoolComboBoxChange(0);
     chr_dat->xp += s2clanfield->s2CFDRebateSum;
@@ -3573,6 +3575,7 @@ void Wizard::Stage3Main() {
             ui->PageStage3->setDisabled(true);
         }
     }
+
 
     ui->S3SchoolComboBox->clear();
     s3SchoolList = stage3->S3ClearAffilation(chr_dat->subAffName.first);

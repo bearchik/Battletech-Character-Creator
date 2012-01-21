@@ -86,7 +86,7 @@
         </rect>
        </property>
        <property name="text">
-        <string>Enter Charachter name</string>
+        <string>Enter Character name</string>
        </property>
       </widget>
       <widget class="QLabel" name="label">

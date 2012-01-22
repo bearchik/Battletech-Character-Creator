@@ -459,7 +459,7 @@ p, li { white-space: pre-wrap; }
     </property>
    </widget>
   </widget>
-  <widget class="QWidget" name="layoutWidget">
+  <widget class="QWidget" name="layoutWidget_2">
    <property name="geometry">
     <rect>
      <x>10</x>
@@ -499,7 +499,7 @@ p, li { white-space: pre-wrap; }
     </item>
    </layout>
   </widget>
-  <widget class="QWidget" name="layoutWidget_2">
+  <widget class="QWidget" name="layoutWidget_3">
    <property name="geometry">
     <rect>
      <x>10</x>
@@ -539,7 +539,7 @@ p, li { white-space: pre-wrap; }
     </item>
    </layout>
   </widget>
-  <widget class="QWidget" name="layoutWidget_3">
+  <widget class="QWidget" name="layoutWidget_4">
    <property name="geometry">
     <rect>
      <x>10</x>
@@ -579,7 +579,7 @@ p, li { white-space: pre-wrap; }
     </item>
    </layout>
   </widget>
-  <widget class="QWidget" name="layoutWidget_4">
+  <widget class="QWidget" name="layoutWidget_5">
    <property name="geometry">
     <rect>
      <x>10</x>
@@ -619,7 +619,7 @@ p, li { white-space: pre-wrap; }
     </item>
    </layout>
   </widget>
-  <widget class="QWidget" name="layoutWidget_5">
+  <widget class="QWidget" name="layoutWidget_6">
    <property name="geometry">
     <rect>
      <x>10</x>
@@ -659,7 +659,7 @@ p, li { white-space: pre-wrap; }
     </item>
    </layout>
   </widget>
-  <widget class="QWidget" name="layoutWidget_6">
+  <widget class="QWidget" name="layoutWidget_7">
    <property name="geometry">
     <rect>
      <x>10</x>
@@ -699,7 +699,7 @@ p, li { white-space: pre-wrap; }
     </item>
    </layout>
   </widget>
-  <widget class="QWidget" name="layoutWidget_7">
+  <widget class="QWidget" name="layoutWidget_8">
    <property name="geometry">
     <rect>
      <x>10</x>

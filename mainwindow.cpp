@@ -2690,7 +2690,7 @@ void MainWindow::on_actionNew_triggered()
     ageMain = 21;
     countCBills = 0;
     wizardMod = 0;
-    charNameMain = "Enter Charachter name";
+    //charNameMain = "Enter Charachter name";
     affNameMain.first.clear();
     affNameMain.second = 0;
     subAffNameMain.first.clear();
@@ -2745,7 +2745,7 @@ void MainWindow::on_actionNew_triggered()
     ui->HomePlanetMain->addItems(planetList);
     ui->EyeColorMain->addItems(loadres->eyeList);
     ui->HairColorMain->addItems(loadres->hairList);
-    ui->CharNameMain->setText(charNameMain);
+    //ui->CharNameMain->setText(charNameMain);
 
     SetWigetValue();
     QStringList sexList;

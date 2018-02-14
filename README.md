@@ -1,4 +1,4 @@
-#Battletech Character Creator
+# Battletech Character Creator
 
 The program is created according to the rules “BATTLETECH A Time of War” and include Wizard for Life Modules and 
 character editor. It allows you to quickly and easily create a new character to play Battletech RPG.

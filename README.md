@@ -7,9 +7,7 @@ character editor. It allows you to quickly and easily create a new character to 
 Development is closed now. Last stable version is 0.8.9.
 
 ## Download
-You can download install file from:
-Google Drive: https://drive.google.com/file/d/0B-Y-CAEci0MCUFlYQVQyblBXNjg/view?usp=sharing&resourcekey=0-LTwavwXhezOMV_sYFvCXtg
-
+You can download install file from releases.
 ## Installation
 Run file as Administrator.
 Next, Next, Next, Enjoy
